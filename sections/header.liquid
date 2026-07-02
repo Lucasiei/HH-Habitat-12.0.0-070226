@@ -12,6 +12,9 @@
 				{% render 'header-style2', blocks: section.blocks, header_settings: section.settings %}
 			{%- when 'style3' -%}
 				{% render 'header-style3', blocks: section.blocks, header_settings: section.settings %}
+			{%- when 'style4' -%}
+				{% render 'header-style-4', blocks: section.blocks, header_settings: section.settings %}
+				{% render 'header-mobile-style4', blocks: section.blocks, header_settings: section.settings %}
 			{%- endcase -%}
 		</div>
 	</div>
@@ -133,7 +136,8 @@
 			"options": [
 				{ "value": "style1", "label": "Logo left, menu center" },
 				{ "value": "style2", "label": "Logo left, menu left" },
-				{ "value": "style3", "label": "Logo center, menu left" }
+				{ "value": "style3", "label": "Logo center, menu left" },
+				{ "value": "style4", "label": "Logo center, menu down" }
 			],
 			"info": "Position is always center for mobile."
 		},
