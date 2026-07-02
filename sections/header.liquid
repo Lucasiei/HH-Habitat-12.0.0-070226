@@ -4,7 +4,7 @@
 -%}
 <theme-header id="header" class="header header-sticky--active {{ style }} {{ header_shadow }}">
 	<div class="row expanded">
-		<div class="small-12 columns">
+		<div class="small-12 columns {{ style }}">
 			{%- case section.settings.style -%}
 			{%- when 'style1' -%}
 				{% render 'header-style1', blocks: section.blocks, header_settings: section.settings %}
