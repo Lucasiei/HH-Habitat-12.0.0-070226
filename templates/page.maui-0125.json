@@ -1,0 +1,569 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "template-header": {
+      "type": "template-header",
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "overlay_opacity": 30,
+        "show_subcollections": true,
+        "display_description": true
+      }
+    },
+    "a58d48c8-89cd-4ef3-97bb-8c92444701f9": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16769565098281__a58d48c8-89cd-4ef3-97bb-8c92444701f9-16684111441d496680-2": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>ALOHA AND WELCOME</h3>",
+            "custom_liquid": "",
+            "size": "text-size-large"
+          }
+        },
+        "text_Kj3Vdp": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Visit the Hilo Hattie store at Whalers Village and enjoy <strong>15% off</strong> plus a <strong>free gift</strong> as a mahalo for visiting. Simply show this page in store.</p>",
+            "custom_liquid": "",
+            "size": "text-size-regular"
+          }
+        }
+      },
+      "block_order": [
+        "template--16769565098281__a58d48c8-89cd-4ef3-97bb-8c92444701f9-16684111441d496680-2",
+        "text_Kj3Vdp"
+      ],
+      "custom_css": [
+        ".rich-text {padding: 40px 15px 10px 15px; background-image: url(\"https://cdn.shopify.com/s/files/1/0644/1710/4062/files/BOP-BG-Outline1-Med4.png?v=1730323916\");}",
+        ".rich-text__inner {max-width: 1000px;}"
+      ],
+      "settings": {
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "slideshow_hFbVjd": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_4AmYmH": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Print-LP-Hero1.jpg",
+            "subheading": "",
+            "heading": "",
+            "content": "",
+            "slide_link": "",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "accent2",
+            "button_outline": false,
+            "button_text_2": "",
+            "button_link_2": "",
+            "button_color_2": "white",
+            "button_outline_2": true
+          }
+        }
+      },
+      "block_order": [
+        "slide_4AmYmH"
+      ],
+      "custom_css": [
+        "p {font-size: 20px;}"
+      ],
+      "settings": {
+        "desktop_height": "desktop-height-750",
+        "mobile_height": "mobile-height-500",
+        "content_position": "bottom-center",
+        "text_alignment": "center",
+        "content_size": "large",
+        "full_width": true,
+        "fade": true,
+        "autoplay": true,
+        "autoplay_length": 5,
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "gallery_pdbkqr": {
+      "type": "gallery",
+      "blocks": {
+        "image_BLiFeW": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/mele_palm_v2_1e7dbcb0-3752-4058-bb89-10ea7e76de31.jpg",
+            "title": "Cards & Gift Bags",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "shopify://collections/holiday-cards-bags"
+          }
+        },
+        "image_a9hyi9": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/HGG-Collections-TropicalOrnamentsSolo.jpg",
+            "title": "Tropical Ornaments",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "shopify://collections/tropical-ornaments"
+          }
+        },
+        "image_PwGAxW": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Hawaiian-Islands-Ocean-CuttingBoard.jpg",
+            "title": "Unique Gifts",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "shopify://pages/unique-gifts"
+          }
+        }
+      },
+      "block_order": [
+        "image_BLiFeW",
+        "image_a9hyi9",
+        "image_PwGAxW"
+      ],
+      "custom_css": [
+        ".section-gallery {background-color: #a5a999; background-image: url(\"https://cdn.shopify.com/s/files/1/0644/1710/4062/files/Boug-BG-Outline4-Med2.png?v=1730322514\"); padding: 40px 0px;}",
+        ".section-header {max-width: 900px;}",
+        ".h3 {color: #fff;}",
+        "p {color: #fff; font-size: 20px;}"
+      ],
+      "settings": {
+        "heading": "",
+        "description": "<p>Discover the largest collection of locally made men's, women's, children's, and family matching apparel, along with unique island-inspired gifts.</p>",
+        "columns_desktop": 3,
+        "full_width": true,
+        "mobile_swipe": true,
+        "image_ratio": "square",
+        "content_position": "bottom-center",
+        "text_alignment": "center",
+        "column_spacing": "medium",
+        "heading_size": "h4",
+        "overlay_opacity": 100,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "gallery_wtxtaB": {
+      "type": "gallery",
+      "blocks": {
+        "image_LEn4a7": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/AS-Day23-PL-088.jpg",
+            "title": "Men's Aloha Shirts",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "shopify://collections/mens-holiday-apparel"
+          }
+        },
+        "image_Cq9PC8": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/AA-Aug24-Day2-Selects-19_v3.jpg",
+            "title": "Women's Apparel",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "shopify://collections/womens-holiday-apparael"
+          }
+        },
+        "image_H7cgqh": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/AA-Aug24-Day3-Part1-Selects-016_v3.jpg",
+            "title": "Family Matching",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "shopify://collections/family-match"
+          }
+        }
+      },
+      "block_order": [
+        "image_LEn4a7",
+        "image_Cq9PC8",
+        "image_H7cgqh"
+      ],
+      "custom_css": [
+        ".section-gallery {background-color: #c19e87; padding: 20px 0px 0px 0px;}",
+        ".section-header {max-width: 900px;}",
+        "h6 {color: #3b2b2b; font-size: 21px;}",
+        "p {color: #3b2b2b; font-size: 20px;}"
+      ],
+      "settings": {
+        "heading": "",
+        "description": "<h6>Hilo Hattie at Whalers Village<br/>2435 Kaanapali Parkway, Suite L04<br/>(above the playground)<br/>+1 808-875-4545</h6>",
+        "columns_desktop": 3,
+        "full_width": true,
+        "mobile_swipe": true,
+        "image_ratio": "square",
+        "content_position": "bottom-center",
+        "text_alignment": "center",
+        "column_spacing": "medium",
+        "heading_size": "h4",
+        "overlay_opacity": 90,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "custom_liquid_zhD4UC": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5502.830339125906!2d-156.69463756724053!3d20.92098528062108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x79552b06af662135%3A0xc8685a81b286d36e!2sHilo%20Hattie!5e1!3m2!1sen!2sus!4v1734391323515!5m2!1sen!2sus\" width=\"400\" height=\"400\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
+      }
+    },
+    "map_qrtaLY": {
+      "type": "map",
+      "blocks": {
+        "pin_n94dfh": {
+          "type": "pin",
+          "settings": {
+            "pin_retina": true,
+            "pin_lat": "20.920998433874004",
+            "pin_long": "-156.69463153214812",
+            "pin_title": "Hilo Hattie at Whalers Village",
+            "pin_desc": "Discover the largest collection of locally made men's, women's, children's, and family matching apparel, along with unique island-inspired gifts."
+          }
+        }
+      },
+      "block_order": [
+        "pin_n94dfh"
+      ],
+      "disabled": true,
+      "settings": {
+        "googlemaps_api_key": "AIzaSyAfTw_L-RslDhOBTqqDtMbUz1F2xv3KSFU",
+        "desktop_height": "desktop-height-550",
+        "mobile_height": "mobile-height-400",
+        "map_type": "roadmap",
+        "map_style_select": "default",
+        "map_zoom": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "slideshow_YdeW8B": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_gcXBa6": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Print-LP-Detail1.jpg",
+            "subheading": "",
+            "heading": "",
+            "content": "",
+            "slide_link": "",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "accent2",
+            "button_outline": false,
+            "button_text_2": "",
+            "button_link_2": "",
+            "button_color_2": "white",
+            "button_outline_2": true
+          }
+        }
+      },
+      "block_order": [
+        "slide_gcXBa6"
+      ],
+      "settings": {
+        "desktop_height": "desktop-height-750",
+        "mobile_height": "mobile-height-500",
+        "content_position": "bottom-center",
+        "text_alignment": "center",
+        "content_size": "large",
+        "full_width": true,
+        "fade": true,
+        "autoplay": true,
+        "autoplay_length": 5,
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "slideshow_EyttWT": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_d4WEWx": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/AA-Aug24-Day3-Part1-Selects-002_v3.jpg",
+            "subheading": "",
+            "heading": "",
+            "content": "",
+            "slide_link": "",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "accent2",
+            "button_outline": false,
+            "button_text_2": "",
+            "button_link_2": "",
+            "button_color_2": "white",
+            "button_outline_2": true
+          }
+        }
+      },
+      "block_order": [
+        "slide_d4WEWx"
+      ],
+      "settings": {
+        "desktop_height": "desktop-height-750",
+        "mobile_height": "mobile-height-image",
+        "content_position": "bottom-center",
+        "text_alignment": "center",
+        "content_size": "large",
+        "full_width": true,
+        "fade": true,
+        "autoplay": true,
+        "autoplay_length": 5,
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "slideshow_bfRiHC": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_cMCPzg": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Paniolo_FlayLay_Small_v2.jpg",
+            "subheading": "",
+            "heading": "",
+            "content": "",
+            "slide_link": "",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "accent2",
+            "button_outline": false,
+            "button_text_2": "",
+            "button_link_2": "",
+            "button_color_2": "white",
+            "button_outline_2": true
+          }
+        }
+      },
+      "block_order": [
+        "slide_cMCPzg"
+      ],
+      "settings": {
+        "desktop_height": "desktop-height-750",
+        "mobile_height": "mobile-height-image",
+        "content_position": "bottom-center",
+        "text_alignment": "center",
+        "content_size": "large",
+        "full_width": true,
+        "fade": true,
+        "autoplay": true,
+        "autoplay_length": 5,
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "gallery_rexn66": {
+      "type": "gallery",
+      "blocks": {
+        "image_YCMVnR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/AA-Aug24-Day3-Part1-Selects-122_v3.jpg",
+            "title": "Keiki Apparel",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "shopify://collections/kids-holiday-apparel"
+          }
+        },
+        "image_GTkQhr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Surf_Shack_Hawaii_Santa_s_Tropical_Christmas_Print__v3.jpg",
+            "title": "Keiki Gifts",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "shopify://collections/keiki-holiday-gifts"
+          }
+        },
+        "image_zzM4EP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Squeaky_Pineapple_2_v3.jpg",
+            "title": "Pets",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "shopify://collections/pets"
+          }
+        }
+      },
+      "block_order": [
+        "image_YCMVnR",
+        "image_GTkQhr",
+        "image_zzM4EP"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".section-gallery {background-color: #f6f6f0; background-image: url(\"https://cdn.shopify.com/s/files/1/0644/1710/4062/files/BOP-BG-Outline1-Med5.png?v=1730324022\"); padding: 40px 0px;}"
+      ],
+      "settings": {
+        "heading": "Keiki & Pets",
+        "description": "<p>Celebrate Keiki smiles and wagging tails with gifts for every little loved one.</p>",
+        "columns_desktop": 3,
+        "full_width": true,
+        "mobile_swipe": true,
+        "image_ratio": "square",
+        "content_position": "bottom-center",
+        "text_alignment": "center",
+        "column_spacing": "medium",
+        "heading_size": "h4",
+        "overlay_opacity": 90,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "image_with_text_overlay_UCifRf": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_dwyCqU": {
+          "type": "heading",
+          "settings": {
+            "text": "Island Flavors",
+            "heading_size": "h1"
+          }
+        },
+        "text_ApKp93": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Discover delicious island flavors, perfect for gifting or adding aloha to your holiday table.</p>"
+          }
+        },
+        "button_jmX3j4": {
+          "type": "button",
+          "settings": {
+            "button_text": "Shop Flavors",
+            "button_link": "shopify://collections/island-flavors"
+          }
+        }
+      },
+      "block_order": [
+        "heading_dwyCqU",
+        "text_ApKp93",
+        "button_jmX3j4"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/HGG-IslandFlavors1-1920x1080.jpg",
+        "desktop_height": "desktop-height-650",
+        "mobile_height": "mobile-height-500",
+        "content_position": "middle-center",
+        "text_alignment": "center",
+        "full_width": true,
+        "overlay_opacity": 60,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "0453c800-d82a-4464-bf8d-f6dcace1e225": {
+      "type": "scrolling-text",
+      "blocks": {
+        "template--16769565098281__0453c800-d82a-4464-bf8d-f6dcace1e225-166842623783cd46ef-1": {
+          "type": "text",
+          "settings": {
+            "text": "HOLIDAY ALOHA WEAR",
+            "link": ""
+          }
+        },
+        "template--16769565098281__0453c800-d82a-4464-bf8d-f6dcace1e225-166842623783cd46ef-0": {
+          "type": "text",
+          "settings": {
+            "text": "TROPICAL ORNAMENTS",
+            "link": ""
+          }
+        },
+        "b9a37a4c-e0fa-4074-8f07-2101f17c9232": {
+          "type": "text",
+          "settings": {
+            "text": "HOLIDAY CARDS & BAGS",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16769565098281__0453c800-d82a-4464-bf8d-f6dcace1e225-166842623783cd46ef-1",
+        "template--16769565098281__0453c800-d82a-4464-bf8d-f6dcace1e225-166842623783cd46ef-0",
+        "b9a37a4c-e0fa-4074-8f07-2101f17c9232"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "description": "",
+        "direction": "left",
+        "speed": "50s",
+        "text_size": 46,
+        "outline_text": false,
+        "image_size": "large",
+        "color_bg": "#ede8e6",
+        "color_text": "#8c695d",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {}
+    }
+  },
+  "order": [
+    "template-header",
+    "main",
+    "a58d48c8-89cd-4ef3-97bb-8c92444701f9",
+    "slideshow_hFbVjd",
+    "gallery_pdbkqr",
+    "gallery_wtxtaB",
+    "custom_liquid_zhD4UC",
+    "map_qrtaLY",
+    "slideshow_YdeW8B",
+    "slideshow_EyttWT",
+    "slideshow_bfRiHC",
+    "gallery_rexn66",
+    "image_with_text_overlay_UCifRf",
+    "0453c800-d82a-4464-bf8d-f6dcace1e225"
+  ]
+}

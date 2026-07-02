@@ -1,0 +1,213 @@
+{% comment %}
+    Renders facets (filtering and sorting)
+    Accepts:
+    - results: {Object} Collection or Search object
+    - enable_filtering: {Boolean} Show filtering when true
+    - enable_sorting: {Boolean} Show sorting when true
+    - collapse_on_larger_devices: {Boolean} Collapse filtering/sorting into menu on larger devices when true
+    Usage:
+    {% render 'facets', results: collection, enable_filtering: true, enable_sorting: true, collapse_on_larger_devices: false %}
+{% endcomment %}
+
+{%- liquid
+  assign sort_by = results.sort_by | default: results.default_sort_by
+  if results.url
+    assign results_url = results.url
+  else
+    assign terms = results.terms | escape
+    assign results_url = '?q=' | append: terms | append: '&options%5Bprefix%5D=last&sort_by=' | append: sort_by
+  endif
+-%}
+<div class="row">
+	<div class="small-12 columns">
+		<facet-filters-form class="facets-desktop-container facets">
+			<form id="FacetFiltersForm" class="facets__form">
+				{%- if enable_filtering -%}
+					{%- if results.terms -%}
+			      <input type="hidden" name="q" value="{{ results.terms | escape }}">
+			      <input name="options[prefix]" type="hidden" value="last">
+			    {%- endif -%}
+					{% if results.current_vendor or results.current_type %}
+			      <input type="hidden" name="q" value="{{ results.current_vendor }}{{ results.current_type }}">
+			    {% endif %}
+					<div class="facets__wrapper">
+						<label class="facets__label">{{ 'products.facets.filter_by_label' | t }}</label>
+						{%- for filter in results.filters -%}
+							{% case filter.type %}
+				        {% when 'boolean' or 'list' %}
+								<details class="thb-filter js-filter" data-index="{{ forloop.index }}">
+									<summary class="thb-filter-title">{{ filter.label | escape }}</summary>
+									<div class="thb-filter-dropdown">
+										<scroll-shadow>
+											<div class="thb-filter-dropdown__inner">
+												{% render 'facets-filter-list', filter: filter, filter_color_swatches: filter_color_swatches, show_counts: show_counts %}
+											</div>
+										</scroll-shadow>
+										<div class="thb-filter-dropdown__footer">
+	                    <span class="facets__selected">{{ 'products.facets.filters_selected' | t: count: filter.active_values.size }}</span>
+	                    <a href="{{ filter.url_to_remove }}" class="facets__reset">
+	                      {{ 'products.facets.reset' | t }}
+	                    </a>
+	                  </div>
+									</div>
+								</details>
+								{% when 'price_range' %}
+								<details class="thb-filter js-filter" data-index="{{ forloop.index }}">
+									<summary class="thb-filter-title">{{ filter.label | escape }}</summary>
+									<div class="thb-filter-dropdown">
+										<div class="thb-filter-dropdown__inner">
+											<div class="{{ filter.type | escape }} {{ filter.type | escape }}-{{ filter.label | downcase | escape }}">
+												{% render 'facets-price-range', filter: filter %}
+											</div>
+										</div>
+									</div>
+								</details>
+							{% endcase %}
+						{%- endfor -%}
+					</div>
+				{%- endif -%}
+
+				<div class="thb-filter-sort-count">
+					{%- if enable_sorting -%}
+						<div class="thb-filter-sort">
+							<resize-select class="select">
+								{%- assign sort_by = results.sort_by | default: results.default_sort_by -%}
+								<label for="SortBy" class="visually-hidden"></label>
+								<select name="sort_by" class="facet-filters__sort select__select" id="SortBy" aria-describedby="a11y-refresh-page-message">
+									{%- for option in results.sort_options -%}
+										<option value="{{ option.value | escape }}"{% if option.value == sort_by %} selected="selected"{% endif %}>{{ option.name | escape }}</option>
+									{%- endfor -%}
+								</select>
+							</resize-select>
+				    </div>
+					{%- endif -%}
+					<div class="thb-filter-count" id="ProductCount">
+						<span class="facets__label">
+							{%- if results.results_count -%}
+                {{ 'search.results_with_count' | t: terms: results.terms, count: results.results_count }}
+              {%- elsif results.products_count == results.all_products_count -%}
+	              {{ 'products.facets.product_count_simple' | t: count: results.products_count }}
+	            {%- else -%}
+	              {{ 'products.facets.product_count' | t: product_count: results.products_count, count: results.all_products_count }}
+	            {%- endif -%}
+						</span>
+						<span class="loading-overlay">
+			        {% render 'svg-icons' with 'thb-loading' %}
+			      </span>
+					</div>
+				</div>
+			</form>
+		</facet-filters-form>
+	</div>
+</div>
+<div class="facets-mobile-container">
+	{%- if enable_filtering -%}
+	<a href="#SideFilters" class="facets-toggle" id="Facets-Toggle">{% render 'svg-icons' with 'thb-filter' %} {{ 'products.facets.filter_and_sort' | t }}</a>
+	{%- endif -%}
+	<div class="thb-filter-count">
+		<span class="facets__label">
+			{%- if results.results_count -%}
+				{{ 'search.results_with_count' | t: terms: results.terms, count: results.results_count }}
+			{%- elsif results.products_count == results.all_products_count -%}
+				{{ 'products.facets.product_count_simple' | t: count: results.products_count }}
+			{%- else -%}
+				{{ 'products.facets.product_count' | t: product_count: results.products_count, count: results.all_products_count }}
+			{%- endif -%}
+		</span>
+		<span class="loading-overlay">
+			{% render 'svg-icons' with 'thb-loading' %}
+		</span>
+	</div>
+</div>
+{%- if enable_filtering -%}
+<div class="row">
+	<div class="small-12 columns">
+		{% render 'facets-active', results: results, results_url: results_url %}
+	</div>
+</div>
+<FacetFiltersFormMobile>
+	<div class="side-panel facet-drawer" id="Facet-Drawer" inert>
+	<div class="side-panel-inner">
+		<div class="side-panel-header">
+			<div>
+				<span class="h4">{{ 'products.facets.filter_and_sort' | t }}
+					<span class="thb-filter-count mobile-filter-count body-font">
+						<span class="facets__label">
+							{%- if results.results_count -%}
+                {{ 'search.results_with_count' | t: terms: results.terms, count: results.results_count }}
+              {%- elsif results.products_count == results.all_products_count -%}
+								{{ 'products.facets.product_count_simple' | t: count: results.products_count }}
+							{%- else -%}
+								{{ 'products.facets.product_count' | t: product_count: results.products_count, count: results.all_products_count }}
+							{%- endif -%}
+						</span>
+						<span class="loading-overlay">
+			        {% render 'svg-icons' with 'thb-loading' %}
+			      </span>
+					</span>
+				</span>
+				<side-panel-close class="side-panel-close">{{ 'general.close' | t }}</side-panel-close>
+			</div>
+		</div>
+		<div class="side-panel-content">
+			<facet-filters-form>
+				<form id="FacetFiltersFormMobile" class="facets__mobile_form">
+					{%- if results.terms -%}
+						<input type="hidden" name="q" value="{{ results.terms | escape }}">
+						<input name="options[prefix]" type="hidden" value="last">
+					{%- endif -%}
+					{% if results.current_vendor or results.current_type %}
+						<input type="hidden" name="q" value="{{ results.current_vendor }}{{ results.current_type }}">
+					{% endif %}
+					{%- for filter in results.filters -%}
+						{%- case filter.type -%}
+							{%- when 'boolean' or 'list' -%}
+							{%- assign label = filter.label | downcase | replace: ' ', '-' | escape -%}
+							<div class="thb-filter js-filter" data-index="mobile-{{ forloop.index }}">
+								<div class="thb-filter-title">{{ filter.label | escape }}</div>
+								<div class="thb-filter-dropdown">
+									<div class="thb-filter-dropdown__inner">
+										{% render 'facets-filter-list', filter: filter, filter_color_swatches: filter_color_swatches, show_counts: show_counts, mobile: true %}
+									</div>
+								</div>
+							</div>
+							{% when 'price_range' %}
+							<div class="thb-filter js-filter" data-index="mobile-{{ forloop.index }}">
+								<div class="thb-filter-title">{{ filter.label | escape }}</div>
+								<div class="thb-filter-dropdown">
+									<div class="thb-filter-dropdown__inner">
+										<div class="{{ filter.type | escape }} {{ filter.type | escape }}-{{ filter.label | downcase | escape }}">
+											{% render 'facets-price-range', filter: filter, mobile: true %}
+										</div>
+									</div>
+								</div>
+							</div>
+						{% endcase %}
+					{%- endfor -%}
+					{%- if enable_sorting -%}
+					<div class="thb-filter-sort-count thb-filter">
+						<div class="thb-filter-sort">
+							<div class="thb-filter-title">{{ 'products.facets.sort_by_label' | t }}</div>
+							<div class="select">
+								{%- assign sort_by = results.sort_by | default: results.default_sort_by -%}
+								<label for="SortByMobile" class="visually-hidden">{{ 'products.facets.sort_by_label' | t }}</label>
+								<select name="sort_by" class="facet-filters__sort select__select caption-large" id="SortByMobile" aria-describedby="a11y-refresh-page-message">
+									{%- for option in results.sort_options -%}
+										<option value="{{ option.value | escape }}"{% if option.value == sort_by %} selected="selected"{% endif %}>{{ option.name | escape }}</option>
+									{%- endfor -%}
+								</select>
+							</div>
+						</div>
+					</div>
+					{%- endif -%}
+				</form>
+			</facet-filters-form>
+		</div>
+		<div class="side-panel-footer">
+			<button class="button mobile-filters-apply" onclick="document.querySelector('.click-capture').click()"><span>{{ 'products.facets.apply' | t }}</span></button>
+			<a class="button mobile-filters-clear outline" href="{{ results_url }}">{{ 'products.facets.clear' | t }}</a>
+		</div>
+	</div>
+</div>
+</FacetFiltersFormMobile>
+{%- endif -%}

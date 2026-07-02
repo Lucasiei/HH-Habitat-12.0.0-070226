@@ -1,0 +1,108 @@
+@font-face {
+  font-family: "Mariposa Sans";
+  src: url({{ 'MariposaSansStd-Book.woff2' | asset_url }}) format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+.slideshow.desktop-height-image .slideshow__slide .slideshow__slide-bg img {
+    object-fit: cover !important;
+}
+
+.header .thb-full-menu > li > a[href="/collections/aunties-outlet"] {
+  color: #A20532 !important;
+}
+
+
+.badge.bogo50 {
+  background-color: #A20532;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.badge.birthday-sale {
+  background-color: #A20532;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+
+@media (min-width: 2500px) {
+.slideshow__slide-adapt-to-image {
+    position: relative;
+    padding-top: 22%;
+}
+}
+
+ @media only screen and (min-width: 1068px) {
+.columns.style4 {
+    display: flex !important;
+    flex-wrap: wrap;
+    padding: 15px 0 0px 0;
+}
+   
+.style4 .logolink {
+    display: inline-flex;
+    margin: 20px 0;
+    margin: 0 auto;
+    width: 51.5%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.style4 .thb-secondary-area {
+    min-width: 135px;
+    width: 45%;
+    min-width: 45%;
+}
+ 
+.style4 .menu-logo-container {
+    width: 100%;
+    border-bottom: 1px solid;
+/* Original, updated by LM 3/19/24  
+    border-color: var(--color-footer-border, --color-form-border);
+*/  
+    border-color: #DEDEDE;  
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 15px;
+}
+.style4 full-menu.full-menu {
+    padding-top: 0px;
+}
+   .monile-style-4 {
+    display: none;
+}
+   .header .row.expanded {
+    padding: 0;
+}
+   .style4 .thb-secondary-area {
+    padding-right: 20px;
+}
+}
+ @media only screen and (max-width: 1068px) {
+   .monile-style-4 {
+    display: flex;
+    align-items: center;
+}
+  .menu-logo-container.cstm-desk-style4 {
+    display: none;
+}
+.small-12.columns.style4 {
+    grid-template-columns: 1fr auto;
+}
+   
+ }
+
+
+
+@media (min-width: 1068px) and (max-width: 1200px) {
+.style4 .menu-logo-container {
+    margin-left: 90px;
+}
+} */

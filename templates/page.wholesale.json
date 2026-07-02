@@ -1,0 +1,224 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "1652081672ff9b3c2c": {
+      "type": "map",
+      "blocks": {
+        "16520816724be18f71-0": {
+          "type": "pin",
+          "disabled": true,
+          "settings": {
+            "pin_retina": true,
+            "pin_lat": "33.9787261",
+            "pin_long": "-118.4197832",
+            "pin_title": "",
+            "pin_desc": ""
+          }
+        }
+      },
+      "block_order": [
+        "16520816724be18f71-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "googlemaps_api_key": "",
+        "image": "shopify://shop_images/Contact-Hero2-2000x1335.jpg",
+        "desktop_height": "desktop-height-450",
+        "mobile_height": "mobile-height-350",
+        "map_type": "roadmap",
+        "map_style_select": "night",
+        "map_zoom": 14,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "spacer_EGV9tK": {
+      "type": "spacer",
+      "name": "Spacer",
+      "settings": {
+        "spacer_mobile": 25,
+        "spacer_desktop": 50,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "rich_text_3gQA3F": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_nqWnpQ": {
+          "type": "heading",
+          "settings": {
+            "text": "Wholesale",
+            "size": "h2"
+          }
+        },
+        "text_EJePec": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Hilo Hattie is a trusted name in Hawai‘i, known for vibrant style, warm hospitality, and the spirit of aloha. Our signature apparel is proudly made in Hawai‘i, supporting locals and continuing the legacy of authentic Hawaiiana. When you become a Hilo Hattie partner, you offer more than just a product—you share a beloved brand your customers will recognize and ask for by name.</p>",
+            "custom_liquid": "",
+            "size": "text-size-regular"
+          }
+        }
+      },
+      "block_order": [
+        "heading_nqWnpQ",
+        "text_EJePec"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "1652268757b7c53383": {
+      "type": "contact-form",
+      "blocks": {
+        "165226875777ee1cd4-0": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "heading": "Customer Service Hours",
+            "text": "<p>Monday - Friday, 8am-4pm HST</p>"
+          }
+        },
+        "165226875777ee1cd4-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "heading": "Wholesale and Uniform Inquires",
+            "text": "<p>Email cfugua@hilohattie.com</p>"
+          }
+        }
+      },
+      "block_order": [
+        "165226875777ee1cd4-0",
+        "165226875777ee1cd4-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "Wholesale",
+        "description": "<p>Hilo Hattie is Hawaii’s leader in providing affordable, quality Aloha Wear for all wholesale needs.  Please contact us via the form below to get started.</p>",
+        "show_phone_number": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "image_with_text_cnrAgr": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_Ty98dk": {
+          "type": "heading",
+          "settings": {
+            "text": "Contact Us Directly",
+            "heading_size": "h3"
+          }
+        },
+        "text_DTBmJr": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Interested in carrying Hilo Hattie? To receive wholesale pricing, place an order, or learn more about our products, please reach out—we’re happy to help.<br/><a href=\"mailto:wholesale@hilohattie.com\" target=\"_blank\" title=\"mailto:wholesale@hilohattie.com\">wholesale@hilohattie.com</a><br/>(808) 535-6539</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Ty98dk",
+        "text_DTBmJr"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/TribalTiare-KimiDress-LS1.jpg",
+        "use_video": false,
+        "video": "",
+        "video_autoplay": true,
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "content_position": "text-center",
+        "full_width": false,
+        "color_bg": "#ffffff",
+        "color_text": "#3b2b2b",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "image_with_text_xXBzgK": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_Mg3RcT": {
+          "type": "heading",
+          "settings": {
+            "text": "Partner With Us On Faire",
+            "heading_size": "h3"
+          }
+        },
+        "text_6twKAG": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Join our wholesale program with Faire Direct, a seamless online way to order Hilo Hattie.</p><p><a href=\"https://www.faire.com/direct/hilohattie\" target=\"_blank\" title=\"https://www.faire.com/direct/hilohattie\">Click here</a> and start shopping wholesale with Faire.</p><p>Questions? Contact us anytime:<br/><a href=\"mailto:wholesale@hilohattie.com\" target=\"_blank\" title=\"mailto:wholesale@hilohattie.com\">wholesale@hilohattie.com</a><br/>(808) 535-6539</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Mg3RcT",
+        "text_6twKAG"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/Lala-BoldSerenity-09_v3_39be2d16-3ef7-4eb9-ae50-f28988fd24e5.jpg",
+        "use_video": false,
+        "video": "",
+        "video_autoplay": true,
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "content_position": "text-center",
+        "full_width": false,
+        "color_bg": "#ffffff",
+        "color_text": "#3b2b2b",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "spacer_kcfGRa": {
+      "type": "spacer",
+      "name": "Spacer",
+      "settings": {
+        "spacer_mobile": 25,
+        "spacer_desktop": 50,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {}
+    },
+    "template-header": {
+      "type": "template-header",
+      "settings": {}
+    }
+  },
+  "order": [
+    "template-header",
+    "1652081672ff9b3c2c",
+    "main",
+    "spacer_EGV9tK",
+    "rich_text_3gQA3F",
+    "1652268757b7c53383",
+    "image_with_text_cnrAgr",
+    "image_with_text_xXBzgK",
+    "spacer_kcfGRa"
+  ]
+}

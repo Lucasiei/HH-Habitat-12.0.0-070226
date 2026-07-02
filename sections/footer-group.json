@@ -1,0 +1,87 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "header",
+  "name": "Footer group",
+  "sections": {
+    "footer-top-bar": {
+      "type": "footer-top-bar",
+      "disabled": true,
+      "settings": {
+        "footer_top_bar": true,
+        "text": "Discover the rich tradition behind Hilo Hattie.",
+        "button_text": "Learn More",
+        "button_link": "shopify://pages/about-us"
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "eea808aa-f273-4675-847d-92a90eb3942d": {
+          "type": "menu",
+          "settings": {
+            "column_size": "small",
+            "title": "COMPANY",
+            "menu": "footer-company"
+          }
+        },
+        "menu_erkNQt": {
+          "type": "menu",
+          "settings": {
+            "column_size": "small",
+            "title": "QUICK LINKS",
+            "menu": "quick-links"
+          }
+        },
+        "menu_VkNicN": {
+          "type": "menu",
+          "settings": {
+            "column_size": "small",
+            "title": "HATTIE CARE",
+            "menu": "footer-customer-support"
+          }
+        },
+        "b4a487aa-4195-4ed2-88bc-723db31735ae": {
+          "type": "social",
+          "settings": {
+            "column_size": "small",
+            "title": "CONNECT"
+          }
+        },
+        "d0ae22e0-140c-4576-b3f9-ad82e5e6f83f": {
+          "type": "signup",
+          "settings": {
+            "column_size": "medium",
+            "title": "JOIN OUR MAILING LIST",
+            "text": "<p>Sign up and be the first to know of special offers, new arrivals and more.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "eea808aa-f273-4675-847d-92a90eb3942d",
+        "menu_erkNQt",
+        "menu_VkNicN",
+        "b4a487aa-4195-4ed2-88bc-723db31735ae",
+        "d0ae22e0-140c-4576-b3f9-ad82e5e6f83f"
+      ],
+      "settings": {
+        "copyright_text": "All rights reserved.",
+        "show_language_switcher": false,
+        "show_currency_switcher": false,
+        "show_payment_icons": false,
+        "enable_follow_on_shop": false
+      }
+    }
+  },
+  "order": [
+    "footer-top-bar",
+    "footer"
+  ]
+}

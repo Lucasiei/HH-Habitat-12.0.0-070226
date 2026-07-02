@@ -1,0 +1,53 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "header",
+  "name": "Header group",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "custom_css": [
+        ".announcement-bar--text {font-size: 15px; text-align: center;}"
+      ],
+      "settings": {
+        "announcement_bar": true,
+        "announcement_bar_homepage_only": false,
+        "announcement_bar_text": "FREE DOMESTIC SHIPPING FROM HAWAII ON ORDERS $125+",
+        "announcement_bar_link": "",
+        "show_language_switcher": false,
+        "show_currency_switcher": false
+      }
+    },
+    "header": {
+      "type": "header",
+      "custom_css": [
+        ".thb-full-menu > li > a {font-weight: 600;}",
+        ".thb-full-menu .sub-menu li a {font-weight: 600;}"
+      ],
+      "settings": {
+        "logo": "shopify://shop_images/HH_Logo_Badge_Web_1800.png",
+        "logo_height_range": 100,
+        "logo_height_range_mobile": 80,
+        "style": "style4",
+        "header_shadow": "header--shadow-small",
+        "menu": "primary-menu",
+        "mobile_secondary_menu": "primary-menu",
+        "show_language_switcher": true,
+        "show_currency_switcher": true,
+        "predictive_search_enabled": true,
+        "search_menu": ""
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header"
+  ]
+}

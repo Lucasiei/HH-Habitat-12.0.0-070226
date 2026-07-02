@@ -1,0 +1,461 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "template-header": {
+      "type": "template-header",
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "overlay_opacity": 30,
+        "show_subcollections": true,
+        "display_description": true
+      }
+    },
+    "slideshow_hFbVjd": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_4AmYmH": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Shirt_Dress_Asset_Desktop.jpg",
+            "mobile_image": "shopify://shop_images/Shirt_Dress_Asset_Mobile.jpg",
+            "subheading": "",
+            "heading": "",
+            "content": "",
+            "slide_link": "",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "accent2",
+            "button_outline": false,
+            "button_text_2": "",
+            "button_link_2": "",
+            "button_color_2": "white",
+            "button_outline_2": true
+          }
+        }
+      },
+      "block_order": [
+        "slide_4AmYmH"
+      ],
+      "custom_css": [
+        "p {font-size: 20px;}"
+      ],
+      "settings": {
+        "desktop_height": "desktop-height-image",
+        "mobile_height": "mobile-height-image",
+        "content_position": "bottom-center",
+        "text_alignment": "center",
+        "content_size": "large",
+        "full_width": true,
+        "fade": true,
+        "autoplay": true,
+        "autoplay_length": 5,
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "a58d48c8-89cd-4ef3-97bb-8c92444701f9": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16769565098281__a58d48c8-89cd-4ef3-97bb-8c92444701f9-16684111441d496680-2": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>Easy, breezy, and just the right amount of flirty—the new Aloha Shirt Dress is made to move with you from sun to moon. Featuring a relaxed fit, button-down front, and pockets, this versatile dress transitions effortlessly from beachside cover-up to dinner-ready style.</h4>",
+            "custom_liquid": "",
+            "size": "text-size-large"
+          }
+        }
+      },
+      "block_order": [
+        "template--16769565098281__a58d48c8-89cd-4ef3-97bb-8c92444701f9-16684111441d496680-2"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".rich-text {padding: 60px 0px 40px 0px; background-color: #8fb1ca;}",
+        ".text-center {background-color: #8fb1ca;}",
+        ".rich-text__inner {max-width: 1000px;}",
+        "h4 {color: #fff;}"
+      ],
+      "settings": {
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "gallery_pdbkqr": {
+      "type": "gallery",
+      "blocks": {
+        "image_BLiFeW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC06245_v3.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Bold Serenity Beige",
+            "link": "https://hilohattie.com/products/bold-serenity-aloha-shirt-dress?variant=45086170054846",
+            "use_text_button": true,
+            "block_link": "https://hilohattie.com/products/bold-serenity-aloha-shirt-dress?variant=45086170054846"
+          }
+        },
+        "image_a9hyi9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Lala-BoldSerenity-45_v3_6f386f0a-9df7-4c6b-8171-7b8b4b21a2eb.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Bold Serenity Aqua",
+            "link": "https://hilohattie.com/products/bold-serenity-aloha-shirt-dress?variant=45086170251454",
+            "use_text_button": true,
+            "block_link": "https://hilohattie.com/products/bold-serenity-aloha-shirt-dress?variant=45086170251454"
+          }
+        }
+      },
+      "block_order": [
+        "image_BLiFeW",
+        "image_a9hyi9"
+      ],
+      "custom_css": [
+        ".section-gallery {background-color: #fff;}",
+        ".section-header {max-width: 1000px; padding-top: 60px; padding-bottom: 10px;}",
+        "h4 {color: #3b2b2b;}",
+        "p {color: #fff; font-size: 20px;}"
+      ],
+      "settings": {
+        "heading": "",
+        "description": "<h4>Breezy, versatile, and made in Hawai‘i—the new Aloha Shirt Dress is your go-to for effortless island style. With a relaxed fit, button-down front, and pockets, it takes you from beachside to evening with ease.</h4>",
+        "columns_desktop": 2,
+        "full_width": true,
+        "mobile_swipe": false,
+        "image_ratio": "square",
+        "content_position": "bottom-center",
+        "text_alignment": "center",
+        "column_spacing": "large",
+        "heading_size": "h3",
+        "overlay_opacity": 30,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "gallery_qEgMEC": {
+      "type": "gallery",
+      "blocks": {
+        "image_4AiDM9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC06609_v3.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Banana Leaf Red",
+            "link": "https://hilohattie.com/products/banana-leaf-aloha-shirt-dress?variant=45120942866622",
+            "use_text_button": true,
+            "block_link": "https://hilohattie.com/products/banana-leaf-aloha-shirt-dress?variant=45120942866622"
+          }
+        },
+        "image_YriB6n": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC06298_v3.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Banana Leaf Dark Chocolate",
+            "link": "https://hilohattie.com/products/banana-leaf-aloha-shirt-dress?variant=45120942899390",
+            "use_text_button": true,
+            "block_link": "https://hilohattie.com/products/banana-leaf-aloha-shirt-dress?variant=45120942899390"
+          }
+        },
+        "image_6ppppX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC06515_v3.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Banana Leaf Navy",
+            "link": "https://hilohattie.com/products/banana-leaf-aloha-shirt-dress?variant=45120941359294",
+            "use_text_button": true,
+            "block_link": "https://hilohattie.com/products/banana-leaf-aloha-shirt-dress?variant=45120941359294"
+          }
+        },
+        "image_qKpBxA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC06451_v3.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Banana Leaf Green",
+            "link": "https://hilohattie.com/products/banana-leaf-aloha-shirt-dress?variant=45120942833854",
+            "use_text_button": true,
+            "block_link": "https://hilohattie.com/products/banana-leaf-aloha-shirt-dress?variant=45120942833854"
+          }
+        }
+      },
+      "block_order": [
+        "image_4AiDM9",
+        "image_YriB6n",
+        "image_6ppppX",
+        "image_qKpBxA"
+      ],
+      "custom_css": [
+        ".section-gallery {background-color: #fff;}",
+        ".section-header {max-width: 1000px; padding-top: 60px; padding-bottom: 10px;}",
+        "h4 {color: #fff;}",
+        "p {color: #fff; font-size: 20px;}"
+      ],
+      "settings": {
+        "heading": "",
+        "description": "",
+        "columns_desktop": 2,
+        "full_width": true,
+        "mobile_swipe": false,
+        "image_ratio": "square",
+        "content_position": "bottom-center",
+        "text_alignment": "center",
+        "column_spacing": "large",
+        "heading_size": "h4",
+        "overlay_opacity": 30,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "gallery_wtxtaB": {
+      "type": "gallery",
+      "blocks": {
+        "image_LEn4a7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/AS-Day23-PL-088.jpg",
+            "title": "Men's Aloha Shirts",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "shopify://collections/mens-holiday-apparel"
+          }
+        },
+        "image_Cq9PC8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/AA-Aug24-Day2-Selects-19_v3.jpg",
+            "title": "Women's Apparel",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "shopify://collections/womens-holiday-apparael"
+          }
+        },
+        "image_H7cgqh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/AA-Aug24-Day3-Part1-Selects-016_v3.jpg",
+            "title": "Family Matching",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "shopify://collections/family-match"
+          }
+        }
+      },
+      "block_order": [
+        "image_LEn4a7",
+        "image_Cq9PC8",
+        "image_H7cgqh"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "Holiday Aloha Wear",
+        "description": "<p>Bring island charm to your holiday celebrations with aloha wear for everyone.</p>",
+        "columns_desktop": 3,
+        "full_width": true,
+        "mobile_swipe": true,
+        "image_ratio": "square",
+        "content_position": "bottom-center",
+        "text_alignment": "center",
+        "column_spacing": "medium",
+        "heading_size": "h4",
+        "overlay_opacity": 90,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "gallery_rexn66": {
+      "type": "gallery",
+      "blocks": {
+        "image_YCMVnR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/AA-Aug24-Day3-Part1-Selects-122_v3.jpg",
+            "title": "Keiki Apparel",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "shopify://collections/kids-holiday-apparel"
+          }
+        },
+        "image_GTkQhr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Surf_Shack_Hawaii_Santa_s_Tropical_Christmas_Print__v3.jpg",
+            "title": "Keiki Gifts",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "shopify://collections/keiki-holiday-gifts"
+          }
+        },
+        "image_zzM4EP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Squeaky_Pineapple_2_v3.jpg",
+            "title": "Pets",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "shopify://collections/pets"
+          }
+        }
+      },
+      "block_order": [
+        "image_YCMVnR",
+        "image_GTkQhr",
+        "image_zzM4EP"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".section-gallery {background-color: #f6f6f0; background-image: url(\"https://cdn.shopify.com/s/files/1/0644/1710/4062/files/BOP-BG-Outline1-Med5.png?v=1730324022\"); padding: 40px 0px;}"
+      ],
+      "settings": {
+        "heading": "Keiki & Pets",
+        "description": "<p>Celebrate Keiki smiles and wagging tails with gifts for every little loved one.</p>",
+        "columns_desktop": 3,
+        "full_width": true,
+        "mobile_swipe": true,
+        "image_ratio": "square",
+        "content_position": "bottom-center",
+        "text_alignment": "center",
+        "column_spacing": "medium",
+        "heading_size": "h4",
+        "overlay_opacity": 90,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "0453c800-d82a-4464-bf8d-f6dcace1e225": {
+      "type": "scrolling-text",
+      "blocks": {
+        "template--16769565098281__0453c800-d82a-4464-bf8d-f6dcace1e225-166842623783cd46ef-1": {
+          "type": "text",
+          "settings": {
+            "text": "HOLIDAY ALOHA WEAR",
+            "link": ""
+          }
+        },
+        "template--16769565098281__0453c800-d82a-4464-bf8d-f6dcace1e225-166842623783cd46ef-0": {
+          "type": "text",
+          "settings": {
+            "text": "TROPICAL ORNAMENTS",
+            "link": ""
+          }
+        },
+        "b9a37a4c-e0fa-4074-8f07-2101f17c9232": {
+          "type": "text",
+          "settings": {
+            "text": "HOLIDAY CARDS & BAGS",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16769565098281__0453c800-d82a-4464-bf8d-f6dcace1e225-166842623783cd46ef-1",
+        "template--16769565098281__0453c800-d82a-4464-bf8d-f6dcace1e225-166842623783cd46ef-0",
+        "b9a37a4c-e0fa-4074-8f07-2101f17c9232"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "description": "",
+        "direction": "left",
+        "speed": "50s",
+        "text_size": 46,
+        "outline_text": false,
+        "image_size": "large",
+        "color_bg": "#ede8e6",
+        "color_text": "#8c695d",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "image_with_text_overlay_UCifRf": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_dwyCqU": {
+          "type": "heading",
+          "settings": {
+            "text": "Island Flavors",
+            "heading_size": "h1"
+          }
+        },
+        "text_ApKp93": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Discover delicious island flavors, perfect for gifting or adding aloha to your holiday table.</p>"
+          }
+        },
+        "button_jmX3j4": {
+          "type": "button",
+          "settings": {
+            "button_text": "Shop Flavors",
+            "button_link": "shopify://collections/island-flavors"
+          }
+        }
+      },
+      "block_order": [
+        "heading_dwyCqU",
+        "text_ApKp93",
+        "button_jmX3j4"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/HGG-IslandFlavors1-1920x1080.jpg",
+        "desktop_height": "desktop-height-650",
+        "mobile_height": "mobile-height-500",
+        "content_position": "middle-center",
+        "text_alignment": "center",
+        "full_width": true,
+        "overlay_opacity": 60,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {}
+    }
+  },
+  "order": [
+    "template-header",
+    "main",
+    "slideshow_hFbVjd",
+    "a58d48c8-89cd-4ef3-97bb-8c92444701f9",
+    "gallery_pdbkqr",
+    "gallery_qEgMEC",
+    "gallery_wtxtaB",
+    "gallery_rexn66",
+    "0453c800-d82a-4464-bf8d-f6dcace1e225",
+    "image_with_text_overlay_UCifRf"
+  ]
+}

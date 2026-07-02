@@ -1,0 +1,77 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "rich_text_D9DHE8": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_X8iK9e": {
+          "type": "heading",
+          "settings": {
+            "text": "Oops, looks like this page doesn't exist",
+            "size": "h3"
+          }
+        },
+        "text_xVCFhJ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>No worries, search for products below or check out our top collections.</p>",
+            "custom_liquid": "",
+            "size": "text-size-regular"
+          }
+        }
+      },
+      "block_order": [
+        "heading_X8iK9e",
+        "text_xVCFhJ"
+      ],
+      "settings": {
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
+    "main": {
+      "type": "main-404",
+      "settings": {}
+    },
+    "collection_list_p7kHhH": {
+      "type": "collection-list",
+      "settings": {
+        "heading": "",
+        "description": "",
+        "collection_list": [
+          "womens-apparel",
+          "mens-apparel",
+          "island-flavors",
+          "hawaiian-finds"
+        ],
+        "image_ratio": "square",
+        "layout": "grid",
+        "style": "style2",
+        "content_alignment": "text-center",
+        "columns_desktop": 4,
+        "collection_description": false,
+        "overlay_opacity": 50,
+        "carousel_dots": true,
+        "mobile_swipe": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    }
+  },
+  "order": [
+    "rich_text_D9DHE8",
+    "main",
+    "collection_list_p7kHhH"
+  ]
+}

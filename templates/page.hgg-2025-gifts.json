@@ -1,0 +1,430 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "template-header": {
+      "type": "template-header",
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "overlay_opacity": 30,
+        "show_subcollections": true,
+        "display_description": true
+      }
+    },
+    "slideshow_hFbVjd": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_4AmYmH": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/sunny-day-through-palm-trees.jpg",
+            "subheading": "",
+            "heading": "Gifts For All Types",
+            "content": "",
+            "slide_link": "",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "accent2",
+            "button_outline": false,
+            "button_text_2": "",
+            "button_link_2": "",
+            "button_color_2": "white",
+            "button_outline_2": true
+          }
+        }
+      },
+      "block_order": [
+        "slide_4AmYmH"
+      ],
+      "custom_css": [
+        "p {font-size: 20px;}"
+      ],
+      "settings": {
+        "desktop_height": "desktop-height-750",
+        "mobile_height": "mobile-height-500",
+        "content_position": "middle-center",
+        "text_alignment": "center",
+        "content_size": "large",
+        "full_width": true,
+        "fade": true,
+        "autoplay": true,
+        "autoplay_length": 5,
+        "overlay_opacity": 70,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "59a74dc4-f32b-4764-a3cf-d777f9b06e50": {
+      "type": "countdown-banner",
+      "disabled": true,
+      "settings": {
+        "section_layout": "horizontal",
+        "desktop_height": "desktop-height-auto",
+        "mobile_height": "mobile-height-auto",
+        "full_width": true,
+        "subheading": "",
+        "heading": "Christmas Sale",
+        "heading_size": "h3",
+        "content": "20% off with code: CHRISTMAS",
+        "content_size": "medium",
+        "button_text": "",
+        "button_link": "",
+        "timer_year": 2023,
+        "timer_month": "01",
+        "timer_day": "01",
+        "timer_hour": "00",
+        "timer_minute": "00",
+        "color_bg": "#c24141",
+        "color_text": "#ffffff",
+        "overlay_color": "#ffffff",
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "a58d48c8-89cd-4ef3-97bb-8c92444701f9": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16769565098281__a58d48c8-89cd-4ef3-97bb-8c92444701f9-16684111441d496680-2": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>From timeless island-inspired apparel to locally crafted treasures, find the perfect gifts that celebrate Hawaii’s warmth, beauty, and the joy of giving.</h4>",
+            "custom_liquid": "",
+            "size": "text-size-large"
+          }
+        }
+      },
+      "block_order": [
+        "template--16769565098281__a58d48c8-89cd-4ef3-97bb-8c92444701f9-16684111441d496680-2"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".rich-text {padding: 40px 15px 10px 15px;}",
+        ".rich-text__inner {max-width: 1000px;}"
+      ],
+      "settings": {
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "gallery_pdbkqr": {
+      "type": "gallery",
+      "blocks": {
+        "image_cHpGFt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Lala-ClassicHibiscus-Selects-3_v3.jpg",
+            "title": "For Him",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "shopify://collections/dresses"
+          }
+        },
+        "image_HFnpiN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC06617_v3.jpg",
+            "title": "For Her",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "shopify://collections/aloha-pants"
+          }
+        },
+        "image_kFkFqK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/AA-Aug24-Day3-Part1-Selects-055_v3.jpg",
+            "title": "For ‘Ohana",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "shopify://collections/jewelry"
+          }
+        }
+      },
+      "block_order": [
+        "image_cHpGFt",
+        "image_HFnpiN",
+        "image_kFkFqK"
+      ],
+      "custom_css": [
+        ".section-gallery {padding: 40px 0px;}",
+        ".section-header {max-width: 900px;}",
+        ".h3 {color: #fff;}",
+        "p {color: #fff; font-size: 20px;}"
+      ],
+      "settings": {
+        "heading": "",
+        "description": "",
+        "columns_desktop": 3,
+        "full_width": false,
+        "mobile_swipe": true,
+        "image_ratio": "square",
+        "content_position": "bottom-center",
+        "text_alignment": "center",
+        "column_spacing": "medium",
+        "heading_size": "h4",
+        "overlay_opacity": 100,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "gallery_wtxtaB": {
+      "type": "gallery",
+      "blocks": {
+        "image_LEn4a7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Aloha_Smoke_Spice_v2.jpg",
+            "title": "Flavor Lover",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "shopify://collections/hawaiian-aloha-shirts"
+          }
+        },
+        "image_Cq9PC8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Lion-Maui-Coffee-Lifestyle-1-1200px_85096_v3.jpg",
+            "title": "Coffee / Tea Lover",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "shopify://collections/mens-accessories"
+          }
+        },
+        "image_H7cgqh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/HH-2Piece-MilkChocolate-1.jpg",
+            "title": "Sweets Lover",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "shopify://collections/island-flavors"
+          }
+        }
+      },
+      "block_order": [
+        "image_LEn4a7",
+        "image_Cq9PC8",
+        "image_H7cgqh"
+      ],
+      "custom_css": [
+        ".section-gallery {padding: 40px 0px;}",
+        ".section-header {max-width: 900px;}",
+        ".h3 {color: #fff;}",
+        "p {color: #fff; font-size: 20px;}"
+      ],
+      "settings": {
+        "heading": "",
+        "description": "",
+        "columns_desktop": 3,
+        "full_width": false,
+        "mobile_swipe": true,
+        "image_ratio": "square",
+        "content_position": "bottom-center",
+        "text_alignment": "center",
+        "column_spacing": "medium",
+        "heading_size": "h4",
+        "overlay_opacity": 90,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "gallery_rexn66": {
+      "type": "gallery",
+      "blocks": {
+        "image_YCMVnR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/AA-Aug24-Day3-Part1-Selects-122_v3.jpg",
+            "title": "Keiki",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "shopify://collections/kids"
+          }
+        },
+        "image_4G9GGQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/AA-Aug24-Day3-Part1-Selects-055_v3.jpg",
+            "title": "Matching",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "shopify://collections/family-match"
+          }
+        },
+        "image_GTkQhr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Surf_Shack_Hawaii_Santa_s_Tropical_Christmas_Print__v3.jpg",
+            "title": "Gifts",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "shopify://collections/keiki-holiday-gifts"
+          }
+        },
+        "image_zzM4EP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Squeaky_Pineapple_2_v3.jpg",
+            "title": "Pets",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "shopify://collections/pets"
+          }
+        }
+      },
+      "block_order": [
+        "image_YCMVnR",
+        "image_4G9GGQ",
+        "image_GTkQhr",
+        "image_zzM4EP"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".section-gallery {background-color: #f6f6f0; padding: 40px 0px;}"
+      ],
+      "settings": {
+        "heading": "For the ‘Ohana ",
+        "description": "",
+        "columns_desktop": 4,
+        "full_width": false,
+        "mobile_swipe": true,
+        "image_ratio": "square",
+        "content_position": "bottom-center",
+        "text_alignment": "center",
+        "column_spacing": "medium",
+        "heading_size": "h4",
+        "overlay_opacity": 90,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "image_with_text_overlay_UCifRf": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_dwyCqU": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "See All Gifts",
+            "heading_size": "h1"
+          }
+        },
+        "button_jmX3j4": {
+          "type": "button",
+          "settings": {
+            "button_text": "Shop All Gifts",
+            "button_link": "shopify://collections/island-flavors"
+          }
+        }
+      },
+      "block_order": [
+        "heading_dwyCqU",
+        "button_jmX3j4"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Screenshot2025-09-16082123_ad36e6fe-3d4d-4037-a4c6-d77da443b43d.png",
+        "desktop_height": "desktop-height-450",
+        "mobile_height": "mobile-height-350",
+        "content_position": "middle-center",
+        "text_alignment": "center",
+        "full_width": true,
+        "overlay_opacity": 80,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "0453c800-d82a-4464-bf8d-f6dcace1e225": {
+      "type": "scrolling-text",
+      "blocks": {
+        "template--16769565098281__0453c800-d82a-4464-bf8d-f6dcace1e225-166842623783cd46ef-1": {
+          "type": "text",
+          "settings": {
+            "text": "HOLIDAY ALOHA WEAR",
+            "link": ""
+          }
+        },
+        "template--16769565098281__0453c800-d82a-4464-bf8d-f6dcace1e225-166842623783cd46ef-0": {
+          "type": "text",
+          "settings": {
+            "text": "TROPICAL ORNAMENTS",
+            "link": ""
+          }
+        },
+        "b9a37a4c-e0fa-4074-8f07-2101f17c9232": {
+          "type": "text",
+          "settings": {
+            "text": "HOLIDAY CARDS & BAGS",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16769565098281__0453c800-d82a-4464-bf8d-f6dcace1e225-166842623783cd46ef-1",
+        "template--16769565098281__0453c800-d82a-4464-bf8d-f6dcace1e225-166842623783cd46ef-0",
+        "b9a37a4c-e0fa-4074-8f07-2101f17c9232"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "description": "",
+        "direction": "left",
+        "speed": "50s",
+        "text_size": 46,
+        "outline_text": false,
+        "image_size": "large",
+        "color_bg": "#ede8e6",
+        "color_text": "#8c695d",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {}
+    }
+  },
+  "order": [
+    "template-header",
+    "main",
+    "slideshow_hFbVjd",
+    "59a74dc4-f32b-4764-a3cf-d777f9b06e50",
+    "a58d48c8-89cd-4ef3-97bb-8c92444701f9",
+    "gallery_pdbkqr",
+    "gallery_wtxtaB",
+    "gallery_rexn66",
+    "image_with_text_overlay_UCifRf",
+    "0453c800-d82a-4464-bf8d-f6dcace1e225"
+  ]
+}

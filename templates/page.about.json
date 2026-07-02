@@ -1,0 +1,107 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "template-header": {
+      "type": "template-header",
+      "settings": {
+        "full_width": true,
+        "overlay_opacity": 30,
+        "show_subcollections": true,
+        "display_description": true,
+        "bg_image": "shopify://shop_images/OceanAlone-2000x1333_dbbfebb8-f638-4b53-8cdd-e9c3c3b89ca4.jpg"
+      }
+    },
+    "1652120914ae452f7a": {
+      "type": "rich-text",
+      "blocks": {
+        "1652120914012681b9-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Aloha Wear for over 60 years",
+            "size": "h3"
+          }
+        },
+        "text_yW3FNF": {
+          "type": "text",
+          "settings": {
+            "text": "<p>From our humble beginnings on the island of Kauai and the International Marketplace in Waikiki, Hilo Hattie has become synonymous with vacation shopping. With our online store and Hilo Hattie stores on Oahu, Maui, Kona, and Kauai, locals and visitors alike can enjoy a wonderful and wide assortment of Hawaiian fashions, tees, gifts, souvenirs, home and beach accessories, beauty products, gourmet foods and stunning island jewelry.<br/><br/>Founded in 1963, Hilo Hattie has grown from one store into a chain of five stores to become Hawaii’s largest retailer, manufacturer and wholesaler of Hawaiian fashions and gifts. Voted by Hawaii's residents as \"The Best Place for Hawaiian Fashions\" for the past 10 years, Hilo Hattie guarantees our shoppers the best values, largest selection of Made-in-Hawaii gifts and a 100% quality guarantee on thousands of Hawaiian products.</p>",
+            "custom_liquid": "",
+            "size": "text-size-regular"
+          }
+        }
+      },
+      "block_order": [
+        "1652120914012681b9-1",
+        "text_yW3FNF"
+      ],
+      "settings": {
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
+    "rich_text_eaCip3": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_PzDFUC": {
+          "type": "heading",
+          "settings": {
+            "text": "Who was Hilo Hattie?",
+            "size": "h3"
+          }
+        },
+        "image_DKhTVH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/HiloHattie-Collage.jpg"
+          }
+        },
+        "text_hfmUyV": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Clarissa \"Clara\" Haili was born on October 28, 1901. She began her career as a School Teacher but it was her singing and dancing that gave her a place in modern history. She popularized the comic hula style with such tunes as \"When Hilo Hattie Does the Hula Hop\" and \"The Cockeyed Mayor of Kaunakakai.\" She legally changed her name to Hilo Hattie in 1942.  Clara \"Hilo Hattie\" Nelson passed away in 1979, leaving behind a legacy carried on by a quality company that  understands and illustrates the Aloha Spirit.</p>",
+            "custom_liquid": "",
+            "size": "text-size-regular"
+          }
+        }
+      },
+      "block_order": [
+        "heading_PzDFUC",
+        "image_DKhTVH",
+        "text_hfmUyV"
+      ],
+      "settings": {
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "spacer_LyjzWg": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 40,
+        "spacer_desktop": 60,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    }
+  },
+  "order": [
+    "template-header",
+    "1652120914ae452f7a",
+    "rich_text_eaCip3",
+    "spacer_LyjzWg"
+  ]
+}

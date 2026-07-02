@@ -1,0 +1,84 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "1652081672ff9b3c2c": {
+      "type": "map",
+      "settings": {
+        "googlemaps_api_key": "",
+        "image": "shopify://shop_images/Contact-Hero2-2000x1335.jpg",
+        "desktop_height": "desktop-height-450",
+        "mobile_height": "mobile-height-350",
+        "map_type": "roadmap",
+        "map_style_select": "night",
+        "map_zoom": 14,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "rich_text_pbPjGh": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_iV3iFd": {
+          "type": "heading",
+          "settings": {
+            "text": "Uniforms",
+            "size": "h2"
+          }
+        },
+        "text_F3nRzd": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Hilo Hattie is Hawaii’s leader in providing affordable, quality Aloha Wear for special events, promotions and company uniforms. Whether you are in the hospitality, restaurant, entertainment industries or just want to build team success with “Aloha”, let Hilo Hattie be the source of your Aloha Wear.</p><p>To get started, contact Cheryl Fuaga:<br/>Direct Line: <a href=\"tel:8085356539\">808-535 6539</a><br/>Email: <a href=\"mailto:cfuaga@hilohattie.com\">cfuaga@hilohattie.com</a></p>",
+            "custom_liquid": "",
+            "size": "text-size-large"
+          }
+        }
+      },
+      "block_order": [
+        "heading_iV3iFd",
+        "text_F3nRzd"
+      ],
+      "disabled": true,
+      "settings": {
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "contact_form_p8Ah6P": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "Uniforms",
+        "description": "<p>Hilo Hattie is Hawaii’s leader in providing affordable, quality Aloha Wear for special events, promotions and company uniforms. Whether you are in the hospitality, restaurant, entertainment industries or just want to build team success with \"Aloha\", let Hilo Hattie be the source of your Aloha Wear. To get started, contact us via the form below.</p>",
+        "show_phone_number": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {}
+    },
+    "template-header": {
+      "type": "template-header",
+      "settings": {}
+    }
+  },
+  "order": [
+    "template-header",
+    "1652081672ff9b3c2c",
+    "main",
+    "rich_text_pbPjGh",
+    "contact_form_p8Ah6P"
+  ]
+}

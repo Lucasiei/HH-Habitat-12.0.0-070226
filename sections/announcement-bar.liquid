@@ -1,0 +1,99 @@
+{% if section.settings.announcement_bar %}
+	{%- liquid
+		assign show_announcement_bar = true
+		if section.settings.announcement_bar_homepage_only
+			if template == 'index'
+				assign show_announcement_bar = true
+			else
+				assign show_announcement_bar = false
+			endif
+		endif
+	-%}
+	{% if show_announcement_bar %}
+		<style>
+			.announcement-bar--inner{padding-left:12.5px;padding-right:12.5px;max-width:1360px;margin-left:auto;margin-right:auto}
+			@media only screen and (min-width:768px){.announcement-bar--inner{padding-left:40px;padding-right:40px}}
+			.announcement-bar-section{z-index:51}
+			.header-section+.announcement-bar-section{z-index:49}
+			.announcement-bar{background:var(--color-announcement-bar-bg,var(--color-accent));font-size:.6875rem;color:var(--color-announcement-bar-text,var(--color-accent3));line-height:1;padding:8px 0;min-height:36px}
+			.announcement-bar--inner{height:100%;align-items:center;display:grid;grid-template-columns:1fr auto 1fr;max-width:none}
+			.announcement-bar--text{position:relative}
+			.announcement-bar--link{display:block;position:absolute;top:0;left:0;width:100%;height:100%}
+			.announcement-bar p{letter-spacing:.1em;margin:0}
+			.announcement-bar select{color:var(--color-announcement-bar-text,var(--color-accent3));text-transform:uppercase;background:var(--color-announcement-bar-bg,var(--color-accent))}
+			.announcement-bar select option{background:var(--color-announcement-bar-bg,var(--color-accent));color:var(--color-announcement-bar-text,var(--color-accent3))}
+			.announcement-bar .thb-localization-forms{display:none;justify-content:flex-end}
+			@media only screen and (min-width:1068px){.announcement-bar .thb-localization-forms{display:flex}}
+			.announcement-bar .thb-localization-forms .select{margin-bottom:0;font-size:inherit}
+			.announcement-bar .thb-localization-forms .select:after{border-color:var(--color-announcement-bar-text,var(--color-accent3)) transparent transparent transparent;right:0}
+			.announcement-bar .thb-localization-forms .select select{padding-right:10px}
+			.announcement-bar .thb-localization-forms .select+.select{margin-left:20px}
+			[dir="rtl"] .announcement-bar .thb-localization-forms .select+.select{margin-left:0;margin-right:20px}
+		</style>
+		{% liquid
+			assign show_language_switcher = section.settings.show_language_switcher
+			assign show_currency_switcher = section.settings.show_currency_switcher
+			assign announcement_bar_text = section.settings.announcement_bar_text
+			assign announcement_bar_link = section.settings.announcement_bar_link
+		%}
+		<div class="announcement-bar">
+			<div class="announcement-bar--inner">
+				<div></div>
+				<div class="announcement-bar--text">
+					<p>{{ announcement_bar_text }}</p>
+					{%- if announcement_bar_link != blank -%}
+					<a href="{{ announcement_bar_link | escape }}" class="announcement-bar--link" aria-label="{{ announcement_bar_text | escape }}"></a>
+					{%- endif -%}
+				</div>
+				<div>
+					{% render 'localization', id: 'AnnouncementBarLocalization', show_language_switcher: show_language_switcher, show_currency_switcher: show_currency_switcher %}
+				</div>
+			</div>
+		</div>
+		{% endif %}
+{% endif %}
+{% schema %}
+{
+	"name": "Announcement bar",
+	"class": "announcement-bar-section",
+	"settings": [
+		{
+			"type": "checkbox",
+			"id": "announcement_bar",
+			"label": "Enable announcement bar",
+			"default": true
+		},
+		{
+			"type": "checkbox",
+			"id": "announcement_bar_homepage_only",
+			"label": "Show on home page only",
+			"default": false
+		},
+		{
+			"type": "text",
+			"id": "announcement_bar_text",
+			"label": "Text",
+			"default": "Welcome to our store"
+		},
+		{
+			"id": "announcement_bar_link",
+			"type": "url",
+			"label": "Link"
+		},
+		{
+			"type": "checkbox",
+			"id": "show_language_switcher",
+			"label": "Enable language switcher",
+			"default": true,
+			"info": "To add a language, go to your [language settings](/admin/settings/languages)."
+		},
+		{
+			"type": "checkbox",
+			"id": "show_currency_switcher",
+			"label": "Enable currency switcher",
+			"default": true,
+			"info": "To add a country/region, go to your [payment settings](/admin/settings/payments)."
+		}
+	]
+}
+{% endschema %}

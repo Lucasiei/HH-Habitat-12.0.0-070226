@@ -1,0 +1,124 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "breadcrumbs": {
+      "type": "breadcrumbs",
+      "disabled": true,
+      "settings": {}
+    },
+    "slideshow_c3UtwT": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_MnHpMM": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Collection-CM24-Desktop-2800x1000.jpg",
+            "mobile_image": "shopify://shop_images/Collection-CM24-Mobile-2000x1000.jpg",
+            "subheading": "",
+            "heading": "",
+            "content": "",
+            "slide_link": "",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "accent2",
+            "button_outline": false,
+            "button_text_2": "",
+            "button_link_2": "",
+            "button_color_2": "white",
+            "button_outline_2": false
+          }
+        }
+      },
+      "block_order": [
+        "slide_MnHpMM"
+      ],
+      "settings": {
+        "desktop_height": "desktop-height-image",
+        "mobile_height": "mobile-height-image",
+        "content_position": "middle-left",
+        "text_alignment": "center",
+        "content_size": "medium",
+        "full_width": true,
+        "fade": true,
+        "autoplay": true,
+        "autoplay_length": 5,
+        "overlay_opacity": 50,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "rich_text_TbFipK": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_NHdUrq": {
+          "type": "heading",
+          "settings": {
+            "text": "Exclusive Cyber Monday Sale",
+            "size": "h3"
+          }
+        },
+        "text_Jkr33p": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Up to 50% off select items, available online only. </p>",
+            "custom_liquid": "",
+            "size": "text-size-large"
+          }
+        }
+      },
+      "block_order": [
+        "heading_NHdUrq",
+        "text_Jkr33p"
+      ],
+      "custom_css": [
+        ".h3 {padding-top: 30px;}"
+      ],
+      "settings": {
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "template-header": {
+      "type": "template-header",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "full_width": true,
+        "overlay_opacity": 30,
+        "show_subcollections": true,
+        "display_description": true
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 24,
+        "columns_desktop": 4,
+        "pagination_type": "paginated",
+        "full_width": true,
+        "enable_filtering": true,
+        "enable_sorting": true,
+        "show_counts": true,
+        "filter_color_swatches": true
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs",
+    "slideshow_c3UtwT",
+    "rich_text_TbFipK",
+    "template-header",
+    "product-grid"
+  ]
+}

@@ -1,0 +1,313 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "template-header": {
+      "type": "template-header",
+      "settings": {
+        "full_width": false,
+        "overlay_opacity": 30,
+        "show_subcollections": true,
+        "display_description": true
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "rich_text_zJkLBG": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_hgPYhy": {
+          "type": "heading",
+          "settings": {
+            "text": "OAHU",
+            "size": "h3"
+          }
+        },
+        "space_DNMAnt": {
+          "type": "space",
+          "settings": {
+            "height": 20
+          }
+        },
+        "heading_KcwCJi": {
+          "type": "heading",
+          "settings": {
+            "text": "Ala Moana Center",
+            "size": "h3"
+          }
+        },
+        "image_gjYjiw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/store-ala-moana.jpg"
+          }
+        },
+        "text_7Je3kj": {
+          "type": "text",
+          "settings": {
+            "text": "<p><a href=\"http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=1450+Ala+Moana+Blvd.+%231037,+Honolulu,+Hawaii+96814&sll=21.291141,-157.843893&sspn=0.000000,0.000000&ie=UTF8&mrt=rblall&start=80&ll=21.291274,-157.844042&spn=0.006468,0.00825&z=17&iwloc=E\" target=\"_blank\">1450 Ala Moana Blvd. #1254<br/>Honolulu, HI 96814<br/>Street Level 1, Diamond Head Wing</a></p>",
+            "custom_liquid": "",
+            "size": "text-size-regular"
+          }
+        },
+        "text_XqLg4X": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Phone: (808) 973-3266</p><p>Hours of Operation<br/>Monday - Sunday: 10AM - 8PM</p>",
+            "custom_liquid": "",
+            "size": "text-size-regular"
+          }
+        }
+      },
+      "block_order": [
+        "heading_hgPYhy",
+        "space_DNMAnt",
+        "heading_KcwCJi",
+        "image_gjYjiw",
+        "text_7Je3kj",
+        "text_XqLg4X"
+      ],
+      "settings": {
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "spacer_jrLJPF": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 60,
+        "spacer_desktop": 40,
+        "border_separator": true,
+        "border_separator_full": false
+      }
+    },
+    "rich_text_EynyHc": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_npBRxC": {
+          "type": "heading",
+          "settings": {
+            "text": "MAUI",
+            "size": "h3"
+          }
+        },
+        "space_wtzTF6": {
+          "type": "space",
+          "settings": {
+            "height": 20
+          }
+        },
+        "heading_zhYAwt": {
+          "type": "heading",
+          "settings": {
+            "text": "Whalers Village",
+            "size": "h3"
+          }
+        },
+        "image_mPPyLU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/store-whalers.jpg"
+          }
+        },
+        "text_AYwqzp": {
+          "type": "text",
+          "settings": {
+            "text": "<p><a href=\"https://www.google.com/maps/place/2345+Kaanapali+Pkwy+L04,+Lahaina,+HI+96761/@20.9209844,-156.6964029,17z/data=!3m1!4b1!4m5!3m4!1s0x79552b4177409e61:0xe77724d8574b9f6!8m2!3d20.9209844!4d-156.6942142\" title=\"2345 Kaanapali Parkway, Suite L04 Kaanapali, HI 96761\">2435 Kaanapali Parkway<br/>Suite L04<br/>Kaanapali, HI 96761</a></p>",
+            "custom_liquid": "",
+            "size": "text-size-regular"
+          }
+        },
+        "text_jpDXFT": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Phone: (808) 875-4545</p><p>Hours of Operation<br/>Sunday - Saturday: 9AM - 9PM</p>",
+            "custom_liquid": "",
+            "size": "text-size-regular"
+          }
+        }
+      },
+      "block_order": [
+        "heading_npBRxC",
+        "space_wtzTF6",
+        "heading_zhYAwt",
+        "image_mPPyLU",
+        "text_AYwqzp",
+        "text_jpDXFT"
+      ],
+      "settings": {
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "spacer_yLU9kL": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 60,
+        "spacer_desktop": 40,
+        "border_separator": true,
+        "border_separator_full": false
+      }
+    },
+    "rich_text_AFFmXU": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_XKDRWT": {
+          "type": "heading",
+          "settings": {
+            "text": "KAUAI",
+            "size": "h3"
+          }
+        },
+        "space_G9N7KG": {
+          "type": "space",
+          "settings": {
+            "height": 20
+          }
+        },
+        "heading_KtF3jt": {
+          "type": "heading",
+          "settings": {
+            "text": "Lihue",
+            "size": "h3"
+          }
+        },
+        "image_RAaq7D": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/store-lihue.webp"
+          }
+        },
+        "text_RcapyB": {
+          "type": "text",
+          "settings": {
+            "text": "<p><a href=\"https://maps.app.goo.gl/LWq9VWotkvZc5eNW7\" target=\"_blank\" title=\"https://maps.app.goo.gl/LWq9VWotkvZc5eNW7\">3-3252 Kuhio Highway<br/>Lihue, HI 96766-1039</a></p>",
+            "custom_liquid": "",
+            "size": "text-size-regular"
+          }
+        },
+        "text_CVAVrW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Phone: (808) 245-3404</p><p>Hours of Operation<br/>Sunday - Saturday: 9AM – 5PM</p>",
+            "custom_liquid": "",
+            "size": "text-size-regular"
+          }
+        }
+      },
+      "block_order": [
+        "heading_XKDRWT",
+        "space_G9N7KG",
+        "heading_KtF3jt",
+        "image_RAaq7D",
+        "text_RcapyB",
+        "text_CVAVrW"
+      ],
+      "settings": {
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "spacer_TP8eCE": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 60,
+        "spacer_desktop": 40,
+        "border_separator": true,
+        "border_separator_full": false
+      }
+    },
+    "rich_text_Yk9XDt": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_NXeNH7": {
+          "type": "heading",
+          "settings": {
+            "text": "HAWAI'I ISLAND",
+            "size": "h3"
+          }
+        },
+        "space_rUUdgX": {
+          "type": "space",
+          "settings": {
+            "height": 20
+          }
+        },
+        "heading_eJVgy3": {
+          "type": "heading",
+          "settings": {
+            "text": "Kona Inn Shopping Village",
+            "size": "h3"
+          }
+        },
+        "image_gezPkx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Kona2.jpg"
+          }
+        },
+        "text_LcbDCp": {
+          "type": "text",
+          "settings": {
+            "text": "<p><a href=\"https://maps.app.goo.gl/JtRa6eEFyMJBgTP77\" target=\"_blank\" title=\"https://maps.app.goo.gl/JtRa6eEFyMJBgTP77\">75-5725 Alii Drive<br/>Suite B-102<br/>Kailua-Kona, HI 96740</a></p>",
+            "custom_liquid": "",
+            "size": "text-size-regular"
+          }
+        },
+        "text_qYwtMn": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Phone: (808) 329-7200</p><p>Hours of Operation<br/>Sunday - Saturday: 10AM – 5PM</p>",
+            "custom_liquid": "",
+            "size": "text-size-regular"
+          }
+        }
+      },
+      "block_order": [
+        "heading_NXeNH7",
+        "space_rUUdgX",
+        "heading_eJVgy3",
+        "image_gezPkx",
+        "text_LcbDCp",
+        "text_qYwtMn"
+      ],
+      "settings": {
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    }
+  },
+  "order": [
+    "template-header",
+    "main",
+    "rich_text_zJkLBG",
+    "spacer_jrLJPF",
+    "rich_text_EynyHc",
+    "spacer_yLU9kL",
+    "rich_text_AFFmXU",
+    "spacer_TP8eCE",
+    "rich_text_Yk9XDt"
+  ]
+}

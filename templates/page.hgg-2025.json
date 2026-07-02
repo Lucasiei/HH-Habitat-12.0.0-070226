@@ -1,0 +1,510 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "template-header": {
+      "type": "template-header",
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "overlay_opacity": 30,
+        "show_subcollections": true,
+        "display_description": true
+      }
+    },
+    "slideshow_hFbVjd": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_4AmYmH": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Holiday_Collection_Launch_Desktop_No_Button.jpg",
+            "mobile_image": "shopify://shop_images/Holiday_Collection_Launch_Mobile_No_Button.jpg",
+            "subheading": "",
+            "heading": "",
+            "content": "",
+            "slide_link": "",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "accent2",
+            "button_outline": false,
+            "button_text_2": "",
+            "button_link_2": "",
+            "button_color_2": "white",
+            "button_outline_2": true
+          }
+        }
+      },
+      "block_order": [
+        "slide_4AmYmH"
+      ],
+      "custom_css": [
+        "p {font-size: 20px;}"
+      ],
+      "settings": {
+        "desktop_height": "desktop-height-image",
+        "mobile_height": "mobile-height-image",
+        "content_position": "middle-center",
+        "text_alignment": "center",
+        "content_size": "large",
+        "full_width": true,
+        "fade": true,
+        "autoplay": true,
+        "autoplay_length": 5,
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "collection_list_LJwz46": {
+      "type": "collection-list",
+      "custom_css": [],
+      "name": "Collection list",
+      "settings": {
+        "heading": "",
+        "description": "",
+        "collection_list": [
+          "for-him",
+          "for-her",
+          "for-keiki",
+          "holiday-favorites"
+        ],
+        "image_ratio": "square",
+        "layout": "grid",
+        "style": "style1",
+        "content_alignment": "text-center",
+        "columns_desktop": 4,
+        "collection_description": false,
+        "overlay_opacity": 0,
+        "carousel_dots": true,
+        "mobile_swipe": false,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "slideshow_Q6LJ4L": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_VWqrj7": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/HHG-Slices-Men3.jpg",
+            "mobile_image": "shopify://shop_images/HHG-Slices-Men-Mobile3.jpg",
+            "subheading": "",
+            "heading": "",
+            "content": "",
+            "slide_link": "shopify://collections/mens-apparel",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "accent2",
+            "button_outline": false,
+            "button_text_2": "",
+            "button_link_2": "",
+            "button_color_2": "white",
+            "button_outline_2": true
+          }
+        }
+      },
+      "block_order": [
+        "slide_VWqrj7"
+      ],
+      "settings": {
+        "desktop_height": "desktop-height-image",
+        "mobile_height": "mobile-height-image",
+        "content_position": "middle-center",
+        "text_alignment": "center",
+        "content_size": "large",
+        "full_width": true,
+        "fade": false,
+        "autoplay": false,
+        "autoplay_length": 5,
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "spacer_GUTzke": {
+      "type": "spacer",
+      "name": "Spacer",
+      "settings": {
+        "spacer_mobile": 20,
+        "spacer_desktop": 50,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "slideshow_HTDXjt": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_aRF3gT": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/HGG-Slices-Women.jpg",
+            "mobile_image": "shopify://shop_images/HGG-Slices-Women-Mobile2.jpg",
+            "subheading": "",
+            "heading": "",
+            "content": "",
+            "slide_link": "shopify://collections/womens-apparel",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "accent2",
+            "button_outline": false,
+            "button_text_2": "",
+            "button_link_2": "",
+            "button_color_2": "white",
+            "button_outline_2": true
+          }
+        }
+      },
+      "block_order": [
+        "slide_aRF3gT"
+      ],
+      "settings": {
+        "desktop_height": "desktop-height-image",
+        "mobile_height": "mobile-height-image",
+        "content_position": "middle-center",
+        "text_alignment": "center",
+        "content_size": "large",
+        "full_width": true,
+        "fade": false,
+        "autoplay": false,
+        "autoplay_length": 5,
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "spacer_dmGzML": {
+      "type": "spacer",
+      "name": "Spacer",
+      "settings": {
+        "spacer_mobile": 20,
+        "spacer_desktop": 50,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "slideshow_NpE3U9": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_RNUqyV": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/HGG-Slices-HolidayFavorites_6b1b3984-e36a-41b4-aa21-d04d6f068888.jpg",
+            "mobile_image": "shopify://shop_images/HGG-Slices-HolidayFavorites-Mobile2.jpg",
+            "subheading": "",
+            "heading": "",
+            "content": "",
+            "slide_link": "shopify://collections/holiday-favorites",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "accent2",
+            "button_outline": false,
+            "button_text_2": "",
+            "button_link_2": "",
+            "button_color_2": "white",
+            "button_outline_2": true
+          }
+        }
+      },
+      "block_order": [
+        "slide_RNUqyV"
+      ],
+      "settings": {
+        "desktop_height": "desktop-height-image",
+        "mobile_height": "mobile-height-image",
+        "content_position": "middle-center",
+        "text_alignment": "center",
+        "content_size": "large",
+        "full_width": true,
+        "fade": false,
+        "autoplay": false,
+        "autoplay_length": 5,
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "spacer_8mbrjj": {
+      "type": "spacer",
+      "name": "Spacer",
+      "settings": {
+        "spacer_mobile": 20,
+        "spacer_desktop": 50,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "slideshow_Emteew": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_qiQwwe": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/HGG-Slices-GiftsForEveryone_6fedebbf-d535-4285-a75f-214205835114.jpg",
+            "mobile_image": "shopify://shop_images/HGG-Slices-GiftsForEveryone-Mobile.jpg",
+            "subheading": "",
+            "heading": "",
+            "content": "",
+            "slide_link": "shopify://collections/holiday-collection",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "accent2",
+            "button_outline": false,
+            "button_text_2": "",
+            "button_link_2": "",
+            "button_color_2": "white",
+            "button_outline_2": true
+          }
+        }
+      },
+      "block_order": [
+        "slide_qiQwwe"
+      ],
+      "disabled": true,
+      "settings": {
+        "desktop_height": "desktop-height-image",
+        "mobile_height": "mobile-height-image",
+        "content_position": "middle-center",
+        "text_alignment": "center",
+        "content_size": "large",
+        "full_width": true,
+        "fade": false,
+        "autoplay": false,
+        "autoplay_length": 5,
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "spacer_PE4pcT": {
+      "type": "spacer",
+      "disabled": true,
+      "name": "Spacer",
+      "settings": {
+        "spacer_mobile": 20,
+        "spacer_desktop": 50,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "slideshow_QUgCJp": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_qtM4xE": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/HGG-Slices-GiftingMadeEasy_db54ab3e-4678-43ef-83ad-629a263a70f8.jpg",
+            "mobile_image": "shopify://shop_images/HGG-Slices-GiftingMadeEasy-Mobile2.jpg",
+            "subheading": "",
+            "heading": "",
+            "content": "",
+            "slide_link": "shopify://pages/holiday-gift-cards",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "accent2",
+            "button_outline": false,
+            "button_text_2": "",
+            "button_link_2": "",
+            "button_color_2": "white",
+            "button_outline_2": true
+          }
+        }
+      },
+      "block_order": [
+        "slide_qtM4xE"
+      ],
+      "settings": {
+        "desktop_height": "desktop-height-image",
+        "mobile_height": "mobile-height-image",
+        "content_position": "middle-center",
+        "text_alignment": "center",
+        "content_size": "large",
+        "full_width": true,
+        "fade": false,
+        "autoplay": false,
+        "autoplay_length": 5,
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "gallery_pdbkqr": {
+      "type": "gallery",
+      "blocks": {
+        "image_cHpGFt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_0379_v3.jpg",
+            "title": "For Him",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": ""
+          }
+        },
+        "image_HFnpiN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/9D34A81E-472D-4B4B-8CF5-9047452F9EB4.jpg",
+            "title": "For Her",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": ""
+          }
+        },
+        "image_kFkFqK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_0260_v2.jpg",
+            "title": "Gifts",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": ""
+          }
+        },
+        "image_TWQC3B": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_cHpGFt",
+        "image_HFnpiN",
+        "image_kFkFqK",
+        "image_TWQC3B"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".section-gallery {background-color: #f7f7f7; padding: 40px 0px;}",
+        ".section-header {max-width: 900px;}",
+        ".h3 {color: #fff;}",
+        "p {color: #fff; font-size: 20px;}"
+      ],
+      "settings": {
+        "heading": "",
+        "description": "",
+        "columns_desktop": 4,
+        "full_width": false,
+        "mobile_swipe": true,
+        "image_ratio": "square",
+        "content_position": "bottom-center",
+        "text_alignment": "center",
+        "column_spacing": "medium",
+        "heading_size": "h4",
+        "overlay_opacity": 100,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "multicolumn_G7dbHM": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_tzUQ3C": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Classic-GiftCard-HC.png",
+            "title": "",
+            "heading_size": "h4",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_pxeqXX": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/eGiftCard-HC.png",
+            "title": "",
+            "heading_size": "h4",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_tzUQ3C",
+        "column_pxeqXX"
+      ],
+      "disabled": true,
+      "name": "Multicolumn",
+      "settings": {
+        "heading": "Give the Gift of Aloha",
+        "description": "<p>Share the spirit of Hawai‘i with a Hilo Hattie Gift Card—perfect for every occasion. Choose a beautifully printed <strong>Classic Gift Card</strong> to mail or send an instant <strong>eGift Card</strong> straight to their inbox. No matter the distance, it’s the easiest way to share island-made style and aloha.</p>",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "mobile_swipe": true,
+        "text_alignment": "center",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
+    "rich_text_JzteLm": {
+      "type": "rich-text",
+      "blocks": {
+        "text_DGKRwa": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Redeemable in-store and online. No expiration.</p>",
+            "custom_liquid": "",
+            "size": "text-size-regular"
+          }
+        }
+      },
+      "block_order": [
+        "text_DGKRwa"
+      ],
+      "disabled": true,
+      "name": "Rich text",
+      "settings": {
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {}
+    }
+  },
+  "order": [
+    "template-header",
+    "main",
+    "slideshow_hFbVjd",
+    "collection_list_LJwz46",
+    "slideshow_Q6LJ4L",
+    "spacer_GUTzke",
+    "slideshow_HTDXjt",
+    "spacer_dmGzML",
+    "slideshow_NpE3U9",
+    "spacer_8mbrjj",
+    "slideshow_Emteew",
+    "spacer_PE4pcT",
+    "slideshow_QUgCJp",
+    "gallery_pdbkqr",
+    "multicolumn_G7dbHM",
+    "rich_text_JzteLm"
+  ]
+}

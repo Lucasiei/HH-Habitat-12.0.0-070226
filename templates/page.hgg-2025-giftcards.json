@@ -1,0 +1,185 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "template-header": {
+      "type": "template-header",
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "overlay_opacity": 30,
+        "show_subcollections": true,
+        "display_description": true
+      }
+    },
+    "slideshow_hFbVjd": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_4AmYmH": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/GC-Page-Banner-Desktop-2800x1000.jpg",
+            "mobile_image": "shopify://shop_images/GC-Page-Banner-Mobile-2000x.jpg",
+            "subheading": "",
+            "heading": "",
+            "content": "",
+            "slide_link": "",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "accent2",
+            "button_outline": false,
+            "button_text_2": "",
+            "button_link_2": "",
+            "button_color_2": "white",
+            "button_outline_2": true
+          }
+        }
+      },
+      "block_order": [
+        "slide_4AmYmH"
+      ],
+      "custom_css": [
+        "p {font-size: 20px;}"
+      ],
+      "settings": {
+        "desktop_height": "desktop-height-image",
+        "mobile_height": "mobile-height-image",
+        "content_position": "middle-center",
+        "text_alignment": "center",
+        "content_size": "large",
+        "full_width": true,
+        "fade": true,
+        "autoplay": true,
+        "autoplay_length": 5,
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "featured_collection_CXQR8K": {
+      "type": "featured-collection",
+      "blocks": {
+        "collection_8YVd6a": {
+          "type": "collection",
+          "settings": {
+            "collection": "gift-card-bundles",
+            "display_type": "grid",
+            "product_limit": 4,
+            "columns_desktop": 4,
+            "show_view_all": true,
+            "button_outline": false,
+            "mobile_swipe": true
+          }
+        }
+      },
+      "block_order": [
+        "collection_8YVd6a"
+      ],
+      "name": "Featured collection",
+      "settings": {
+        "heading": "Gift Card Bundles",
+        "description": "<p>Give the gift of choice with a touch of aloha. Our Gift Card Bundles pair beautifully printed Hilo Hattie greeting cards with physical gift cards—ready to send or share. Thoughtful, easy, and made in Hawai‘i, it’s the perfect way to brighten someone’s day with island-made style and aloha spirit.</p>",
+        "full_width": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
+    "spacer_GUTzke": {
+      "type": "spacer",
+      "name": "Spacer",
+      "settings": {
+        "spacer_mobile": 20,
+        "spacer_desktop": 50,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "multicolumn_G7dbHM": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_tzUQ3C": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Classic-GiftCard-HC.png",
+            "title": "",
+            "heading_size": "h4",
+            "text": "",
+            "link_label": "SEND A CLASSIC GIFT CARD",
+            "link": "shopify://products/hilo-hattie-classic-gift-card"
+          }
+        },
+        "column_pxeqXX": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/eGiftCard-HC.png",
+            "title": "",
+            "heading_size": "h4",
+            "text": "",
+            "link_label": "EMAIL AN E-GIFT CARD",
+            "link": "shopify://products/hilo-hattie-egift-card"
+          }
+        }
+      },
+      "block_order": [
+        "column_tzUQ3C",
+        "column_pxeqXX"
+      ],
+      "name": "Multicolumn",
+      "settings": {
+        "heading": "",
+        "description": "<h4><strong>Just want a standalone gift card?</strong></h4><p>Give the gift of aloha with a Hilo Hattie Gift Card—choose a printed Classic Card or instant E-Gift Card to share island-made style anywhere.</p>",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "mobile_swipe": true,
+        "text_alignment": "center",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "rich_text_JzteLm": {
+      "type": "rich-text",
+      "blocks": {
+        "text_DGKRwa": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Redeemable in-store and online. No expiration.</p>",
+            "custom_liquid": "",
+            "size": "text-size-regular"
+          }
+        }
+      },
+      "block_order": [
+        "text_DGKRwa"
+      ],
+      "disabled": true,
+      "name": "Rich text",
+      "settings": {
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {}
+    }
+  },
+  "order": [
+    "template-header",
+    "main",
+    "slideshow_hFbVjd",
+    "featured_collection_CXQR8K",
+    "spacer_GUTzke",
+    "multicolumn_G7dbHM",
+    "rich_text_JzteLm"
+  ]
+}

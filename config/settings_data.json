@@ -1,0 +1,206 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "current": {
+    "heading_font": "mariposa_sans_n4",
+    "body_font": "neuzeit_office_n4",
+    "body_font_scale": 105,
+    "navigation_font_scale": 105,
+    "navigation_uppercase": true,
+    "product_title_font_scale": 100,
+    "product_title_uppercase": true,
+    "color_body_bg": "#ffffff",
+    "color_accent": "#3b2b2b",
+    "color_accent2": "#c19e87",
+    "color_border": "#dedede",
+    "color_overlay": "#3b2b2b",
+    "color_announcement_bar_text": "#ffffff",
+    "color_announcement_bar_bg": "#c19e87",
+    "color_header_bg": "#f6f6f0",
+    "color_header_text": "#3b2b2b",
+    "color_header_links": "#3b2b2b",
+    "color_header_links_hover": "#a5a999",
+    "color_header_icons": "#3b2b2b",
+    "solid_button_label": "#f6f6f0",
+    "outline_button_label": "#0c0d0d",
+    "color_price": "#8e5d3f",
+    "color_footer_bar_bg": "#f2ede8",
+    "color_footer_bar_text": "#3b2b2b",
+    "color_footer_text": "#3b2b2b",
+    "color_footer_link": "#3b2b2b",
+    "color_footer_link_hover": "#c3b6a1",
+    "color_footer_border": "#3b2b2b",
+    "color_footer_bg": "#f9f9f9",
+    "button_border_radius": 5,
+    "social_facebook_link": "https://www.facebook.com/HiloHattieFanpage/",
+    "social_instagram_link": "https://www.instagram.com/hilohattie",
+    "social_pinterest_link": "",
+    "social_youtube_link": "",
+    "social_share_twitter": false,
+    "social_share_pinterest": false,
+    "product_aspect_ratio": "square",
+    "enable_quick_add": false,
+    "enable_quick_view": true,
+    "show_products_vendor": false,
+    "show_products_rating": false,
+    "badge_position": "bottom left",
+    "color_badge_preorder": "#000000",
+    "color_swatches": "White:white.png\nOff White:#FAF9F6\nNatural:#E2DDD7\nRoyal:#313443\nRoyal Blue:#313443\nRed:#DF3F2B\nBurgundy:#800020\nBlue: #000080\nNavy: #21618C\nBanana:#EFDDB3\nCream:#F0E1C7\nOcean Green:#879189\nMermaid Green:#53b1a8\nMint:#96cab2\nSlate:#9FB2C9\nForest:#0e301e\nSlate Blue:#5eb8db\nSea Green:#BFC595\nHot Pink:#CF2664\nLilac:#9083C0\nSand:#FDF6D9\nWhite/Lilac:#9083C0\nRosy Pink:#EB798B\nCharcoal:#161312\nRust:#B2422A\nWine:#AF2421\nEmerald:#2F7461\nSage:#C1CCB6\nRose:#dd7daf\nDark Blue:#024172\nDark Green:#327f13\nHeather Green:#77796b\nLight Blue:#55a2be\nLight Green:#69b41a\nTeal/Green:#60aebb\nYellow/Blue:#e5c74b\nYellow/Red:#f4bb1b\nBlue/Red:blue-red.png\nBlue/Yellow:blue-yellow.png\nGreen/Pink:green-pink.png\nGreen/Red:green-red.png\nGreen/Yellow:green-yellow.png\nWhite/Yellow:white-yellow.png\nWhite/Blue:white-blue.png\nPurple/Pink:purple-pink.png\nBird of Paradise Natural:bird-of-paradise-natural.png\nBird of Paradise Red:bird-of-paradise-red.png\nBird of Paradise Black:bird-of-paradise-black.png\nBird of Paradise Navy:bird-of-paradise-navy.png\nBird of Paradise Maize:bird-of-paradise-maize.png\nBird of Paradise Pink:bird-of-paradise-pink.png\nClassic Hibiscus Red:classic-hibiscus-red.png\nClassic Hibiscus Navy:classic-hibiscus-navy.png\nClassic Hibiscus Pink:classic-hibiscus-pink.png\nPrince Kuhio Red/Gold:prince-kuhio-red-gold.png\nPrince Kuhio Black/Blue:prince-kuhio-black-blue.png\nPrince Kuhio Black/Red:prince-kuhio-black-red.png\nPrince Kuhio Black/Green:prince-kuhio-black-green.png\nPrince Kuhio Navy/White:prince-kuhio-navy-white.png\nPrince Kuhio White/Blue:prince-kuhio-white-blue.png\nPrince Kuhio Burgundy/White:prince-kuhio-burgundy-white.png\nPrince Kuhio Navy/Lime:prince-kuhio-navy-lime.png\nPrince Kuhio Forest/White:prince-kuhio-forest-white.png\nBlue Hawaii Blue:blue-hawaii-blue.png\nPen Ink Botanical Navy:pen-ink-botanical-navy.png\nPen Ink Botanical Red:pen-ink-botanical-red.png\nPen Ink Botanical Turquoise:pen-ink-botanical-turquoise.png\nManoa Royal:manoa-royal.png\nManoa Aqua:manoa-aqua.png\nManoa Pink:manoa-pink.png\nManoa Orange:manoa-orange.png\nLaulima Black:laulima-black.png\nLaulima Navy:laulima-navy.png\nLaulima Red:laulima-red.png\nPetro Blue:petro-blue.png\nPetro Black:petro-black.png\nPetro Burgundy:petro-burgundy.png\nCoral Print Sea Green:coral-print-sea-green.png\nCoral Print Turquoise:coral-print-turquoise.png\nCoral Print Coral:coral-print-coral.png\nBold Monstera Black:bold-monstera-black.png\nBold Monstera Red:bold-monstera-red.png\nOhia Black:ohia-black.png\nOhia Green:ohia-green.png\nOhia Yellow:ohia-yellow.png\nOhia Red:ohia-red.png\nOhia Navy:ohia-navy.png\nQuilt Panel Burgundy:quilt-panel-burgundy.png\nQuilt Panel Turquoise:quilt-panel-turquoise.png\nQuilt Panel Navy:quilt-panel-navy.png\nBotanic Breeze Black:botanic-breeze-black.png\nBotanic Breeze Denim:botanic-breeze-denim.png\nBotanic Breeze Teal:botanic-breeze-teal.png\nPineapple Panel Black:pineapple-panel-black.png\nOrchid Panel Black:orchid-panel-black.png\nOrchid Panel Coral:orchid-panel-coral.png\nOrchid Panel Blue:orchid-panel-blue.png\nVintage Scenic Black:vintage-scenic-black.png\nVintage Scenic Blue:vintage-scenic-blue.png\nVintage Scenic Red:vintage-scenic-red.png\n50th State Blue:50th-state-blue.png\n50th State Navy:50th-state-navy.png\n50th State Red:50th-state-red.png\n50th State Black:50th-state-black.png\n50th State Navy Teal:50th-state-navy-teal.png\nPukalani BOP Black:pukalani-bop-black.png\nPukalani BOP Burgundy:pukalani-bop-burgundy.png\nPukalani BOP Teal:pukalani-bop-teal.png\nPukalani BOP Navy:pukalani-bop-navy.png\nBanana Leaf Dark Choco:banana-leaf-dark-choco.png\nBanana Leaf Navy:banana-leaf-navy.png\nBanana Leaf Red:banana-leaf-red.png\nBanana Leaf Green:banana-leaf-green.png\nMalu Princess Forest:malu-princess-forest.png\nMalu Princess Aqua:malu-princess-aqua.png\nMalu Princess Navy:malu-princess-navy.png\nBlossoming Hibiscus Purple:blossoming-hibiscus-purple.png\nBlossoming Hibiscus Royal:blossoming-hibiscus-royal.png\nFloral Bird of Paradise Beige:floral-bird-of-paradise-beige.png\nFloral Bird of Paradise Black:floral-bird-of-paradise-black.png\nFloral Bird of Paradise Green:floral-bird-of-paradise-green.png\nFloral Jungle Black:floral-jungle-black.png\nFloral Jungle Red:floral-jungle-red.png\nFloral Jungle Navy:floral-jungle-navy.png\nHanapaa Black:hanapaa-black.png\nHanapaa Blue:hanapaa-blue.png\nHanapaa Burgundy:hanapaa-burgundy.png\nHawaiian Floral Cream:hawaiian-floral-cream.png\nHawaiian Floral Mint:hawaiian-floral-mint.png\nHawaiian Floral Yellow:hawaiian-floral-yellow.png\nHawaiian Orchid Navy:hawaiian-orchid-navy.png\nHawaiian Orchid White:hawaiian-orchid-white.png\nHibiscus Floral Pink:hibiscus-floral-pink.png\nHibiscus Floral Turquoise:hibiscus-floral-turquoise.png\nOrchid Floral Green:orchid-floral-green.png\nOrchid Floral Navy:orchid-floral-navy.png\nOrchid Floral White:orchid-floral-white.png\nHibiscus Palm Panel Blue:hibiscus-palm-panel-blue.png\nHibiscus Palm Panel Green:hibiscus-palm-panel-green.png\nHibiscus Palm Panel Pink:hibiscus-palm-panel-pink.png\nHibiscus Panel Red:hibiscus-panel-red.png\nHibiscus Panel Navy:hibiscus-panel-navy.png\nHibiscus Plumeria Navy:hibiscus-plumeria-navy.png\nHibiscus Plumeria Red:hibiscus-plumeria-red.png\nHibiscus Plumeria Yellow:hibiscus-plumeria-yellow.png\nHikina Black:hikina-black.png\nHikina Navy:hikina-navy.png\nHikina Red:hikina-red.png\nKiko Leaf Black:kiko-leaf-black.png\nKiko Leaf Forest:kiko-leaf-forest.png\nKiko Leaf Navy:kiko-leaf-navy.png\nMonstera Panel Navy:monstera-panel-navy.png\nMonstera Panel Light Blue:monstera-panel-light-blue.png\nMonstera Panel Sea Green:monstera-panel-sea-green.png\nPalm Tree Blue:palm-tree-blue.png\nPalm Tree Red:palm-tree-red.png\nPlumeria Blue:plumeria-blue.png\nPlumeria Red:plumeria-red.png\nPlumeria Pink:plumeria-pink.png\nPlumeria Panel Black:plumeria-panel-black.png\nPlumeria Panel White:plumeria-panel-white.png\nPlumeria Panel Blue:plumeria-panel-blue.png\nPlumeria Panel Coral:plumeria-panel-coral.png\nPlumeria Cluster Black:plumeria-cluster-black.png\nPlumeria Cluster Coral:plumeria-cluster-coral.png\nPlumeria Cluster White:plumeria-cluster-white.png\nPoplin Black:poplin-black.png\nPoplin Mint:poplin-mint.png\nPoplin White:poplin-white.png\nTiare Swirl Purple:tiare-swirl-purple.png\nTiare Swirl Red:tiare-swirl-red.png\nTiare Swirl Teal:tiare-swirl-teal.png\nTribal Tiare Green:tribal-tiare-green.png\nTribal Tiare Navy:tribal-tiare-navy.png\nTribal Tiare Red:tribal-tiare-red.png\nAloha Floral:aloha-floral.png\nHibiscus Floral:hibiscus-floral.png\nHidden Paradise:hidden-paradise.png\nHonu Voyage:honu-voyage.png\nLocal Grindz:local-grindz.png\nHibiscus Dream Black:hibiscus-dream-black.png\nIsland Escape Aqua:island-escape-aqua.png\nIsland Escape Cream:island-escape-cream.png\nIsland Escape Teal:island-escape-teal.png\nLehua Quilt Black:lehua-quilt-black.png\nLehua Quilt Navy:lehua-quilt-navy.png\nLehua Quilt Red:lehua-quilt-red.png\nPineapple Bliss Beige:pineapple-bliss-beige.png\nPineapple Bliss Black:pineapple-bliss-black.png\nPineapple Bliss Navy:pineapple-bliss-navy.png\nRed Ginger Cream:red-ginger-cream.png\nWoody Blue:woody-blue.png\nWoody Yellow:woody-yellow.png\nCamisole Black:camisole-black.png\nCamisole White:camisole-white.png\nBOP Smock Blue:bop-smock-blue.png\nBOP Smock Black:bop-smock-black.png\nBOP Smock Red:bop-smock-red.png\nTaro Leaf Navy:taro-leaf-navy.png\nTaro Leaf Wine:taro-leaf-wine.png\nFlower Green:flower-green.png\nFlower Purple:flower-purple.png\nHibiscus Smock Blue:hibiscus-smock-blue.png\nHibiscus Smock Red:hibiscus-smock-red.png\nHibiscus Smock Purple:hibiscus-smock-purple.png\nJersey Blue:jersey-blue.png\nJersey Rust:jersey-rust.png\nMonstera Leaf Navy:monstera-leaf-navy.png\nStarfish White:starfish-white.png\nStarfish Blue:starfish-blue.png\nStarfish Purple:starfish-purple.png\nStarfish Multi:starfish-multi.png\nWoody Chestband Beige:woody-chestband-beige.png\nWoody Chestband Navy:woody-chestband-navy.png\nWoody Chestband White:woody-chestband-white.png\nOrchid Panel Coral:orchid-panel-coral.png\nOrchid Panel Black:orchid-panel-black.png\nOrchid Panel Blue:orchid-panel-blue.png\nTiki Waikiki Blue:tiki-waikiki-blue.png\nTiki Waikiki Sand:tiki-waikiki-sand.png\nBold Serenity Aqua:bold-serenity-aqua.png\nBold Serenity Beige:bold-serenity-beige.png\nGarden Dream Black:garden-dream-black.png\nGarden Dream Aqua:garden-dream-aqua.png\nGarden Dream Cream:garden-dream-cream.png\nLeaf Patch Green:leaf-patch-green.png\nLeaf Patch Navy:leaf-patch-navy.png\nLeaf Patch Burgundy:leaf-patch-burgundy.png\nTurtle Panel Light Blue: turtle-panel-light-blue.png\nTurtle Panel Dark Blue: turtle-panel-dark-blue.png\nTurtle Panel Blue: turtle-panel-blue.png\nTurtle Panel Green: turtle-panel-green.png\nTurtle Panel Brown: turtle-panel-brown.png\nTurtle Panel Grey: turtle-panel-grey.png\nSurf Chestband Green:surf-chestband-green.png\nSurf Chestband White:surf-chestband-white.png\nPoipu Royal Blue:poipu-royal-blue.png\nPoipu Blue:poipu-blue.png\nPoipu Red:poipu-red.png\nLei Hala Blue:lei-hala-blue.png\nLei Hala Light Blue:lei-hala-light-blue.png\nLei Hala Red:lei-hala-red.png\nLike A Dragon Orange:like-a-dragon-orange.png\nMonstera Pineapple Navy:monstera-pineapple-navy.png\nMonstera Pineapple Turquoise:monstera-pineapple-turquoise.png\nMonstera Pineapple Orange:monstera-pineapple-orange.png\nMonstera Navy:monstera-navy.png\nMonstera Orange:monstera-orange.png\nMonstera Burgundy:monstera-burgundy.png\nMonstera Black:monstera-black.png\nNahenahe Blue:nahenahe-blue.png\nNahenahe Green:nahenahe-green.png\nNahenahe Pink:nahenahe-pink.png\nState of Aloha Maroon:state-of-aloha-maroon.png\nState of Aloha Navy:state-of-aloha-navy.png\nState of Aloha Dark Ash:state-of-aloha-dark-ash.png\nState of Aloha Sand:state-of-aloha-sand.png\nState of Aloha White:state-of-aloha-white.png\nState of Aloha Black:state-of-aloha-black.png\nHibiscus Band Black:hibiscus-band-black.png\nHibiscus Band White:hibiscus-band-white.png\nHibiscus Band Turquoise:hibiscus-band-turquoise.png\nHibiscus Band Ash:hibiscus-band-ash.png\nTribal Shark Navy:tribal-shark-navy.png\nTribal Shark White:tribal-shark-white.png\nTribal Shark Black:tribal-shark-black.png\nTribal Shark Ash:tribal-shark-ash.png\nHibiscus Palm Blue:hibiscus-palm-blue.png\nHibiscus Palm Black:hibiscus-palm-black.png\nHibiscus Palm Red:hibiscus-palm-red.png\nTropical Bloom Black:tropical-bloom-black.png\nTropical Bloom Blue:tropical-bloom-blue.png\nTropical Bloom Green:tropical-bloom-green.png\nTropical Bloom Red:tropical-bloom-red.png\nCanoe Monstera Brown:canoe-monstera-brown.png\nCanoe Monstera Blue:canoe-monstera-blue.png\nCanoe Monstera Green:canoe-monstera-green.png\nTurtle Blue:turtle-blue.png\nQuilt Canoe Reverse Blue:quilt-canoe-reverse-blue.png\nQuilt Canoe Reverse Red:quilt-canoe-reverse-red.png\nHibiscus Reverse Yellow:hibiscus-reverse-yellow.png\nHibiscus Reverse Blue:hibiscus-reverse-blue.png\nHibiscus Reverse Pink:hibiscus-reverse-pink.png\nHibiscus Reverse Red:hibiscus-reverse-red.png\nMap of Hawaii Navy:map-of-hawaii-navy.png\nMap of Hawaii White:map-of-hawaii-white.png\nMap of Hawaii Beige:map-of-hawaii-beige.png\nMaile Monstera Blue:maile-monstera-blue.png\nMaile Monstera Green:maile-monstera-green.png\nMaile Monstera Pink:maile-monstera-pink.png\nSurfboard Honu Black:surfboard-honu-black.png\nSurfboard Honu Beige:surfboard-honu-beige.png\nSurfboard Honu White:surfboard-honu-white.png\nSurfboard Honu Sea Green:surfboard-honu-sea-green.png\nPalm Canoe Red:palm-canoe-red.png\nPalm Canoe Navy:palm-canoe-navy.png\nPalm Canoe Gray:palm-canoe-gray.png\nPalm Chest Black:palm-chest-black.png\nPalm Chest Blue:palm-chest-blue.png\nPalm Chest Burgundy:palm-chest-burgundy.png\nVintage Postcard Navy:vintage-postcard-navy.png\nVintage Postcard Cream:vintage-postcard-cream.png\nPastel Hibiscus Navy:pastel-hibiscus-navy.png\nPastel Hibiscus Charcoal:pastel-hibiscus-charcoal.png\nPastel Hibiscus Green:pastel-hibiscus-green.png\nGinger Red:ginger-red.png\nGinger Green:ginger-green.png\nLei Ui Aqua:lei-ui-aqua.png\nMonstera Grove Green:monstera-grove-green.png\nMonstera Grove Red:monstera-grove-red.png\nPalaka Green:palaka-green.png\nPalaka Red:palaka-red.png\nPalaka Navy:palaka-navy.png\nPurple Ulu:purple-ulu.png\nWind Dancer Red:wind-dancer-red.png\nBig Monsteras:big-monsteras.png\nPacific:pacific.png\nFern:fern.png\nGolden Hour:golden-hour.png\nPua Lei:pua-lei.png\nNohea Breeze Black:nohea-breeze-black.png\nNohea Breeze Navy:nohea-breeze-navy.png\nNohea Breeze Turquoise:nohea-breeze-turquoise.png",
+    "sibling_style": "image",
+    "cart_terms_conditions_enable": false,
+    "cart_drawer_notes_enable": true,
+    "favicon": "shopify://shop_images/HH_Logo_Favicon_64.png",
+    "sections": {
+      "header": {
+        "type": "header",
+        "settings": {
+          "logo_height_range": 34,
+          "logo_height_range_mobile": 30,
+          "style": "style1",
+          "menu": "main-menu",
+          "mobile_secondary_menu": "mobile-secondary",
+          "show_language_switcher": true,
+          "show_currency_switcher": true,
+          "predictive_search_enabled": true,
+          "search_menu": "main-menu"
+        }
+      },
+      "footer-top-bar": {
+        "type": "footer-top-bar",
+        "settings": {
+          "footer_top_bar": true
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "eea808aa-f273-4675-847d-92a90eb3942d": {
+            "type": "menu",
+            "settings": {
+              "column_size": "small",
+              "title": "MENU",
+              "menu": "main-menu"
+            }
+          },
+          "c796f0b6-9eff-476f-94f2-c3965e9258ee": {
+            "type": "menu",
+            "settings": {
+              "column_size": "small",
+              "title": "MENU",
+              "menu": "main-menu"
+            }
+          },
+          "b4a487aa-4195-4ed2-88bc-723db31735ae": {
+            "type": "social",
+            "settings": {
+              "column_size": "medium",
+              "title": "SOCIAL"
+            }
+          },
+          "d0ae22e0-140c-4576-b3f9-ad82e5e6f83f": {
+            "type": "signup",
+            "settings": {
+              "column_size": "medium",
+              "title": "JOIN OUR MAILING LIST"
+            }
+          }
+        },
+        "block_order": [
+          "eea808aa-f273-4675-847d-92a90eb3942d",
+          "c796f0b6-9eff-476f-94f2-c3965e9258ee",
+          "b4a487aa-4195-4ed2-88bc-723db31735ae",
+          "d0ae22e0-140c-4576-b3f9-ad82e5e6f83f"
+        ],
+        "settings": {
+          "copyright_text": "All rights reserved.",
+          "show_language_switcher": true,
+          "show_currency_switcher": true,
+          "show_payment_icons": true
+        }
+      },
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "settings": {
+          "announcement_bar": true,
+          "announcement_bar_homepage_only": false,
+          "announcement_bar_link": "",
+          "show_language_switcher": true,
+          "show_currency_switcher": true
+        }
+      }
+    },
+    "content_for_index": [],
+    "blocks": {
+      "855628211100114053": {
+        "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
+        "disabled": false,
+        "settings": {}
+      },
+      "4804304946286255945": {
+        "type": "shopify://apps/avada-cookie-consent/blocks/app-embed/deacc407-65bc-4a4e-84d9-f90e9e492cf3",
+        "disabled": false,
+        "settings": {}
+      },
+      "5017882195547572635": {
+        "type": "shopify://apps/sc-easy-redirects/blocks/app/be3f8dbd-5d43-46b4-ba43-2d65046054c2",
+        "disabled": false,
+        "settings": {}
+      },
+      "5888675206956468567": {
+        "type": "shopify://apps/loop-returns-exchanges/blocks/onstore/e32ccd84-40d6-4b16-98bf-b6b9da010afd",
+        "disabled": false,
+        "settings": {
+          "show-onstore-bar": false,
+          "api-key": "test-key",
+          "checkout-selector": "#checkout",
+          "replace-checkout-button": false,
+          "preserve-cart": false,
+          "available-credit-bar-label": "in available credit",
+          "available-credit-bar-mobile-label": "credit",
+          "bar-value-font-size": "15",
+          "bar-label-font-size": "10",
+          "bar-button-font-size": "10",
+          "bottom-bar-alignment": "full",
+          "bar-color": "rgb(0,0,0)",
+          "bar-text-color": "rgb(255,255,255)",
+          "bump-side-cart": false,
+          "side-cart-selector": ".sidecart"
+        }
+      },
+      "6263565299450869220": {
+        "type": "shopify://apps/loop-returns-exchanges/blocks/return-coverage/e32ccd84-40d6-4b16-98bf-b6b9da010afd",
+        "disabled": false,
+        "settings": {
+          "element-to-watch-for-cart-updates": "",
+          "event-system": "dom-event-system",
+          "auto-refresh": false,
+          "auto-refresh-option": "every-page"
+        }
+      },
+      "11349500561483629931": {
+        "type": "shopify://apps/notify-me/blocks/app-embed/b399b727-6c85-44fc-9e21-63114bd72054",
+        "disabled": false,
+        "settings": {}
+      },
+      "4499299782520642052": {
+        "type": "shopify://apps/clean-size-charts/blocks/core/feed2801-552f-4e8f-ba1f-32ba9fe8a8f0",
+        "disabled": false,
+        "settings": {}
+      },
+      "14928883602818719019": {
+        "type": "shopify://apps/loop-returns-exchanges/blocks/loop-storefront/e32ccd84-40d6-4b16-98bf-b6b9da010afd",
+        "disabled": false,
+        "settings": {
+          "order-protection-feature": false
+        }
+      }
+    }
+  }
+}

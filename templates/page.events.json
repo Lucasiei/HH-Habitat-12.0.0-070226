@@ -1,0 +1,212 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "template-header": {
+      "type": "template-header",
+      "settings": {
+        "full_width": true,
+        "overlay_opacity": 30,
+        "show_subcollections": true,
+        "display_description": true,
+        "bg_image": "shopify://shop_images/EventsBG-Waterfall-3000x2000.jpg"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {}
+    },
+    "rich_text_chFRNa": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_BQHGWN": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Experiential Event & Corporate Gifting",
+            "size": "h3"
+          }
+        },
+        "text_BCFiDU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Hilo Hattie has embraced the essence of experiential gifting, setting a high standard for the positive impact it can have on recipients. Our carefully curated gifts can enhance meetings, foster bonding, and create lasting memories. With decades of expertise, we have refined our processes and continually evolve with new styles and service offerings, always infused with genuine ‘Aloha’.<br/><br/>Explore our exquisite collection of authentic aloha attire, all proudly made in Hawaii. Choose from a unique selection of aloha shirts, blouses, dresses, and sarongs. We even offer matching sets for couples and families, ensuring everyone can share in the aloha spirit.</p>",
+            "custom_liquid": "",
+            "size": "text-size-large"
+          }
+        }
+      },
+      "block_order": [
+        "heading_BQHGWN",
+        "text_BCFiDU"
+      ],
+      "settings": {
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "image_with_text_73pGEb": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_3E6HRt": {
+          "type": "heading",
+          "settings": {
+            "text": "Hilo Hattie Ohana",
+            "heading_size": "h3"
+          }
+        },
+        "text_KQ9Lae": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our experienced team embodies the aloha spirit, ensuring each guest is delighted with their experience from start to finish.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_3E6HRt",
+        "text_KQ9Lae"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Collection-Men-Hero-2000x1333.jpg",
+        "use_video": false,
+        "video": "",
+        "video_autoplay": false,
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "content_position": "text-center",
+        "full_width": false,
+        "color_bg": "#ffffff",
+        "color_text": "#3b2b2b",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "image_with_text_PhPqda": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_hqzLLU": {
+          "type": "heading",
+          "settings": {
+            "text": "Full-Service Convenience",
+            "heading_size": "h3"
+          }
+        },
+        "text_ETpqiX": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We handle everything, from inventory management and setup to exceptional customer service, making your customized event seamless and stress-free.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_hqzLLU",
+        "text_ETpqiX"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Collection-Women-Hero-2000x1334.jpg",
+        "use_video": false,
+        "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "video_autoplay": true,
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "content_position": "text-center",
+        "full_width": false,
+        "color_bg": "#ffffff",
+        "color_text": "#3b2b2b",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "image_with_text_kxexBK": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_ytKfTa": {
+          "type": "heading",
+          "settings": {
+            "text": "Authentic Hawaiian Products",
+            "heading_size": "h3"
+          }
+        },
+        "text_XRBp8h": {
+          "type": "text",
+          "settings": {
+            "text": "<p>All of our apparel is made in Hawaii, providing your guests with genuine, high-quality products that capture the essence of the islands.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_ytKfTa",
+        "text_XRBp8h"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/HP-MadeInHawaii-Desktop-2000x1333.jpg",
+        "use_video": false,
+        "video": "",
+        "video_autoplay": false,
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "content_position": "text-center",
+        "full_width": false,
+        "color_bg": "#ffffff",
+        "color_text": "#3b2b2b",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "rich_text_Y6cMfx": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_hFKAdH": {
+          "type": "heading",
+          "settings": {
+            "text": "With Hilo Hattie, bring a touch of Hawaiian warmth and excellence to your next corporate event.",
+            "size": "h4"
+          }
+        }
+      },
+      "block_order": [
+        "heading_hFKAdH"
+      ],
+      "settings": {
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "contact_form_7eRrmM": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "Book an Event",
+        "description": "<p>Interested in a Hilo Hattie pop-up at your event? Reach out to us below to get started.</p>",
+        "show_phone_number": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    }
+  },
+  "order": [
+    "template-header",
+    "main",
+    "rich_text_chFRNa",
+    "image_with_text_73pGEb",
+    "image_with_text_PhPqda",
+    "image_with_text_kxexBK",
+    "rich_text_Y6cMfx",
+    "contact_form_7eRrmM"
+  ]
+}
