@@ -200,14 +200,9 @@
         "border_separator": false,
         "border_separator_full": false
       }
-    },
-    "template-header": {
-      "type": "template-header",
-      "settings": {}
     }
   },
   "order": [
-    "template-header",
     "1652081672ff9b3c2c",
     "spacer_EGV9tK",
     "rich_text_3gQA3F",
