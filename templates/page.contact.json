@@ -52,18 +52,10 @@
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
       }
-    },
-    "template-header": {
-      "type": "template-header",
-      "settings": {
-        "full_width": true,
-        "overlay_opacity": 30
-      }
     }
   },
   "order": [
     "1652081672ff9b3c2c",
-    "template-header",
     "1652268757b7c53383"
   ]
 }
