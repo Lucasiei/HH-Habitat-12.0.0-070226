@@ -64,14 +64,9 @@
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
       }
-    },
-    "template-header": {
-      "type": "template-header",
-      "settings": {}
     }
   },
   "order": [
-    "template-header",
     "1652081672ff9b3c2c",
     "rich_text_pbPjGh",
     "contact_form_p8Ah6P"
