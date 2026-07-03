@@ -7,7 +7,8 @@
 
 	if template contains 'collection'
 		assign show_subcollections = section.settings.show_subcollections
-		assign bg_image = collection.featured_image
+		# HH customization: keep collection banner image hidden (bg_image stays false). Re-commented after the 12.0.0 upgrade re-enabled it.
+		# assign bg_image = collection.featured_image
 		assign heading = collection.title
 		assign description = '<p>' | append: collection.description | append: '</p>'
 		assign collection_handle = collection.handle
