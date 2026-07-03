@@ -65,10 +65,6 @@
         "disable_bottom_spacing": false
       }
     },
-    "main": {
-      "type": "main-page",
-      "settings": {}
-    },
     "template-header": {
       "type": "template-header",
       "settings": {}
@@ -77,7 +73,6 @@
   "order": [
     "template-header",
     "1652081672ff9b3c2c",
-    "main",
     "rich_text_pbPjGh",
     "contact_form_p8Ah6P"
   ]

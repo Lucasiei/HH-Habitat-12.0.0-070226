@@ -201,10 +201,6 @@
         "border_separator_full": false
       }
     },
-    "main": {
-      "type": "main-page",
-      "settings": {}
-    },
     "template-header": {
       "type": "template-header",
       "settings": {}
@@ -213,7 +209,6 @@
   "order": [
     "template-header",
     "1652081672ff9b3c2c",
-    "main",
     "spacer_EGV9tK",
     "rich_text_3gQA3F",
     "1652268757b7c53383",

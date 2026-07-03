@@ -440,15 +440,10 @@
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
       }
-    },
-    "main": {
-      "type": "main-page",
-      "settings": {}
     }
   },
   "order": [
     "template-header",
-    "main",
     "slideshow_hFbVjd",
     "a58d48c8-89cd-4ef3-97bb-8c92444701f9",
     "gallery_pdbkqr",

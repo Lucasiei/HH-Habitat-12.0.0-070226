@@ -79,10 +79,6 @@
         "disable_bottom_spacing": false
       }
     },
-    "main": {
-      "type": "main-page",
-      "settings": {}
-    },
     "template-header": {
       "type": "template-header",
       "settings": {}
@@ -91,7 +87,6 @@
   "order": [
     "template-header",
     "image_with_text_overlay_aLEMAQ",
-    "main",
     "rich_text_NAfFUh"
   ]
 }
