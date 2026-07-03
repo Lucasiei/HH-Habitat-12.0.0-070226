@@ -106,3 +106,26 @@
     margin-left: 90px;
 }
 } */
+
+/* ============================================================
+   HH custom overrides re-applied after the Habitat 12.0.0 upgrade.
+   Originally edited directly in core files (product-grid.css, page-header.css)
+   which the upgrade overwrote. Moved here so they survive future upgrades.
+   !important is required because those core stylesheets load after custom.css.
+   ============================================================ */
+
+/* Product-card color swatches — restore LM 3/5/24 sizing (28px; upgrade reverted to 14px) */
+.product-card .product-card-swatches .product-card-swatch {
+    width: 28px !important;
+    height: 28px !important;
+    border-radius: 14px !important;
+    color: transparent !important;
+}
+.product-card .product-card-swatches .product-card-swatch:after {
+    border-radius: 16px !important;
+}
+
+/* Page/collection header inner width — restore LM 09/24/24 value (1200px; upgrade reverted to 720px) */
+.page-header__inner {
+    max-width: 1200px !important;
+}
