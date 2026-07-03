@@ -483,15 +483,10 @@
         "disable_top_spacing": true,
         "disable_bottom_spacing": false
       }
-    },
-    "main": {
-      "type": "main-page",
-      "settings": {}
     }
   },
   "order": [
     "template-header",
-    "main",
     "slideshow_hFbVjd",
     "collection_list_LJwz46",
     "slideshow_Q6LJ4L",
